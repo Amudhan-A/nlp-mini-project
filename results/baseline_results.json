@@ -1,0 +1,2267 @@
+{
+  "split": "test",
+  "results": {
+    "bm25": {
+      "metrics": {
+        "method": "bm25",
+        "n_questions_scored": 49,
+        "n_with_gold_answers": 30,
+        "recall@1": 0.4082,
+        "recall@3": 0.5714,
+        "recall@5": 0.6122,
+        "recall@10": 0.6122,
+        "mrr@10": 0.4932,
+        "ndcg@10": 0.2622,
+        "exact_match": 0.0,
+        "f1": 0.1511,
+        "latency_ms_mean": 4.08,
+        "latency_ms_median": 2.72,
+        "latency_ms_p95": 8.56,
+        "index_build_time_s": 1.25,
+        "index_peak_memory_mb": 70.2
+      },
+      "per_question": [
+        {
+          "id": "PLAIN-1098",
+          "question": "eggnog",
+          "gold_docs": [
+            "MED-3806",
+            "MED-3807",
+            "MED-3808",
+            "MED-3809",
+            "MED-3810"
+          ],
+          "retrieved_docs": [
+            "MED-10",
+            "MED-14",
+            "MED-118",
+            "MED-301",
+            "MED-306"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "I couldn't find sufficient information to answer that.",
+          "gold_answer": "Spices used in holiday eggnog like nutmeg contain allylbenzene compounds which have documented central nervous system neuromodulatory and toxicological effects upon excessive ingestion.",
+          "em": 0.0,
+          "f1": 0.0
+        },
+        {
+          "id": "PLAIN-2040",
+          "question": "salmon",
+          "gold_docs": [
+            "MED-2644",
+            "MED-2646",
+            "MED-2651",
+            "MED-118",
+            "MED-2652"
+          ],
+          "retrieved_docs": [
+            "MED-4933",
+            "MED-4936",
+            "MED-3024",
+            "MED-4943",
+            "MED-4961"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.6325,
+          "predicted_answer": "Polybrominated diphenyl ethers (PBDEs) in farmed and wild salmon marketed in the Northeastern United States..",
+          "gold_answer": "Salmon provides high levels of omega-3 fatty acids EPA and DHA, but farm-raised and wild salmon can accumulate environmental contaminants like PCBs and alkylphenols depending on water quality and feed.",
+          "em": 0.0,
+          "f1": 0.1364
+        },
+        {
+          "id": "PLAIN-1667",
+          "question": "muscle health",
+          "gold_docs": [
+            "MED-2527",
+            "MED-3454",
+            "MED-3163",
+            "MED-3156",
+            "MED-3164"
+          ],
+          "retrieved_docs": [
+            "MED-1466",
+            "MED-3460",
+            "MED-3462",
+            "MED-4166",
+            "MED-1474"
+          ],
+          "hit_rank": 2,
+          "ndcg@10": 0.6215,
+          "predicted_answer": "How free fatty acids inhibit glucose utilization in human skeletal muscle..",
+          "gold_answer": "Maintaining muscle mass and muscular health requires adequate essential amino acid intake, particularly branched-chain amino acids like leucine, combined with progressive resistance training.",
+          "em": 0.0,
+          "f1": 0.1176
+        },
+        {
+          "id": "PLAIN-457",
+          "question": "How can you believe in any scientific study?",
+          "gold_docs": [
+            "MED-952",
+            "MED-5159",
+            "MED-5160",
+            "MED-5161",
+            "MED-5162"
+          ],
+          "retrieved_docs": [
+            "MED-2291",
+            "MED-3109",
+            "MED-4354",
+            "MED-1496",
+            "MED-1407"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0
+        },
+        {
+          "id": "PLAIN-2124",
+          "question": "spearmint",
+          "gold_docs": [
+            "MED-1240",
+            "MED-1241",
+            "MED-1242",
+            "MED-1243",
+            "MED-1244"
+          ],
+          "retrieved_docs": [
+            "MED-1525",
+            "MED-1522",
+            "MED-961",
+            "MED-952",
+            "MED-942"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.359
+        },
+        {
+          "id": "PLAIN-701",
+          "question": "black raspberries",
+          "gold_docs": [
+            "MED-3714",
+            "MED-3720",
+            "MED-3721",
+            "MED-3715",
+            "MED-3716"
+          ],
+          "retrieved_docs": [
+            "MED-3720",
+            "MED-2922",
+            "MED-2280",
+            "MED-3721",
+            "MED-917"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.3619,
+          "predicted_answer": "Black raspberries are a rich natural source of chemopreventive phytochemicals.",
+          "gold_answer": "Black raspberries are rich in anthocyanins and ellagitannins that exhibit potent antioxidant, anti-inflammatory, and chemopreventive properties against oral and aerodigestive tract cancers.",
+          "em": 0.0,
+          "f1": 0.3226
+        },
+        {
+          "id": "PLAIN-2960",
+          "question": "Pharmacists Versus Health Food Store Employees: Who Gives Better Advice?",
+          "gold_docs": [
+            "MED-4370",
+            "MED-4575"
+          ],
+          "retrieved_docs": [
+            "MED-4371",
+            "MED-4372",
+            "MED-4374",
+            "MED-4370",
+            "MED-2016"
+          ],
+          "hit_rank": 4,
+          "ndcg@10": 0.3558,
+          "predicted_answer": "Emerging issues associated with HIV patients seeking advice from health food stores..",
+          "gold_answer": "Pharmacists provide significantly more accurate, evidence-based health and drug interaction advice compared to health food store employees who frequently recommend unproven supplements without safety warnings.",
+          "em": 0.0,
+          "f1": 0.1622
+        },
+        {
+          "id": "PLAIN-2570",
+          "question": "Diabetics Should Take Their Pulses",
+          "gold_docs": [
+            "MED-2140",
+            "MED-2141",
+            "MED-4319",
+            "MED-2143",
+            "MED-2144"
+          ],
+          "retrieved_docs": [
+            "MED-1248",
+            "MED-2145",
+            "MED-2148",
+            "MED-2009",
+            "MED-4320"
+          ],
+          "hit_rank": 2,
+          "ndcg@10": 0.1601,
+          "predicted_answer": "We suggest that prescribers of rectal diclofenac should always discuss it with patients pre-operatively.",
+          "gold_answer": "Consuming dietary pulses such as lentils, chickpeas, and beans significantly improves glycemic control and reduces cardiovascular risk factors in patients with type 2 diabetes.",
+          "em": 0.0,
+          "f1": 0.1053
+        },
+        {
+          "id": "PLAIN-238",
+          "question": "How Chemically Contaminated Are We?",
+          "gold_docs": [
+            "MED-4474",
+            "MED-4475",
+            "MED-4476",
+            "MED-4477",
+            "MED-4479"
+          ],
+          "retrieved_docs": [
+            "MED-4465",
+            "MED-2489",
+            "MED-3436",
+            "MED-2746",
+            "MED-5104"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "Here, we summarize the identification of MaSCs, how they are regulated and the evidence for their serving as the origins of breast cancer.",
+          "gold_answer": "Biomonitoring studies show extensive human contamination with persistent organic pollutants, endocrine disruptors, and heavy metals bioaccumulating through industrial food chains.",
+          "em": 0.0,
+          "f1": 0.05
+        },
+        {
+          "id": "PLAIN-1506",
+          "question": "leucine",
+          "gold_docs": [
+            "MED-2513",
+            "MED-2502",
+            "MED-2498",
+            "MED-2504",
+            "MED-2505"
+          ],
+          "retrieved_docs": [
+            "MED-2126",
+            "MED-5239",
+            "MED-2121",
+            "MED-2509",
+            "MED-5025"
+          ],
+          "hit_rank": 2,
+          "ndcg@10": 0.2337
+        },
+        {
+          "id": "PLAIN-1940",
+          "question": "prolactin",
+          "gold_docs": [
+            "MED-3801",
+            "MED-3794",
+            "MED-666",
+            "MED-3791",
+            "MED-3792"
+          ],
+          "retrieved_docs": [
+            "MED-3792",
+            "MED-3797",
+            "MED-2006",
+            "MED-4114",
+            "MED-4946"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.359
+        },
+        {
+          "id": "PLAIN-2019",
+          "question": "rickets",
+          "gold_docs": [
+            "MED-4575",
+            "MED-4573",
+            "MED-4574"
+          ],
+          "retrieved_docs": [
+            "MED-4573",
+            "MED-961",
+            "MED-952",
+            "MED-942",
+            "MED-941"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.4693
+        },
+        {
+          "id": "PLAIN-551",
+          "question": "amnesia",
+          "gold_docs": [
+            "MED-4380",
+            "MED-4381"
+          ],
+          "retrieved_docs": [
+            "MED-10",
+            "MED-14",
+            "MED-118",
+            "MED-301",
+            "MED-306"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0
+        },
+        {
+          "id": "PLAIN-2134",
+          "question": "Splenda",
+          "gold_docs": [
+            "MED-1574",
+            "MED-1575",
+            "MED-1576",
+            "MED-1577",
+            "MED-1578"
+          ],
+          "retrieved_docs": [
+            "MED-10",
+            "MED-14",
+            "MED-118",
+            "MED-301",
+            "MED-306"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "I couldn't find sufficient information to answer that.",
+          "gold_answer": "Splenda (sucralose) is an artificial non-caloric sweetener whose biological effects on gut microbiota and insulin sensitivity continue to be evaluated in clinical and toxicological studies.",
+          "em": 0.0,
+          "f1": 0.0625
+        },
+        {
+          "id": "PLAIN-3342",
+          "question": "Is Coconut Milk Good For You?",
+          "gold_docs": [
+            "MED-5012",
+            "MED-5013",
+            "MED-5014"
+          ],
+          "retrieved_docs": [
+            "MED-5012",
+            "MED-5015",
+            "MED-3109",
+            "MED-5014",
+            "MED-4000"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.6714,
+          "predicted_answer": "Coconut flour is a good source of both soluble and insoluble dietary fiber, and both types of fiber may have significant role in the reduction of the above lipid biomarker.",
+          "gold_answer": "Coconut milk is high in saturated fatty acids, particularly lauric acid, which raises serum total cholesterol and LDL cholesterol, requiring moderate consumption in cardiovascular disease prevention.",
+          "em": 0.0,
+          "f1": 0.1509
+        },
+        {
+          "id": "PLAIN-3412",
+          "question": "Plant vs. Cow Calcium",
+          "gold_docs": [
+            "MED-5108",
+            "MED-5109",
+            "MED-1703",
+            "MED-1699",
+            "MED-1700"
+          ],
+          "retrieved_docs": [
+            "MED-4682",
+            "MED-2055",
+            "MED-936",
+            "MED-4894",
+            "MED-3227"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.2162,
+          "predicted_answer": "This study compares calcium absorption from soymilk fortified with a proprietary phosphate of calcium versus absorption from cow's milk.",
+          "gold_answer": "Calcium from low-oxalate plant sources such as kale and fortified plant milks exhibits fractional absorption comparable to or exceeding the bioavailability of dairy cow milk calcium.",
+          "em": 0.0,
+          "f1": 0.3256
+        },
+        {
+          "id": "PLAIN-1897",
+          "question": "polypropylene plastic",
+          "gold_docs": [
+            "MED-4991",
+            "MED-4992"
+          ],
+          "retrieved_docs": [
+            "MED-4186",
+            "MED-2644",
+            "MED-4426",
+            "MED-1312",
+            "MED-2559"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0
+        },
+        {
+          "id": "PLAIN-1225",
+          "question": "fructose",
+          "gold_docs": [
+            "MED-1259",
+            "MED-2529",
+            "MED-1261",
+            "MED-1262",
+            "MED-1674"
+          ],
+          "retrieved_docs": [
+            "MED-918",
+            "MED-1669",
+            "MED-1674",
+            "MED-1710",
+            "MED-3059"
+          ],
+          "hit_rank": 2,
+          "ndcg@10": 0.3437,
+          "predicted_answer": "Compared with fructose and glucose beverage and fructose",
+          "gold_answer": "Excessive dietary intake of industrial free fructose and high-fructose corn syrup promotes hepatic lipogenesis, non-alcoholic fatty liver disease, and insulin resistance compared to glucose.",
+          "em": 0.0,
+          "f1": 0.3125
+        },
+        {
+          "id": "PLAIN-882",
+          "question": "Chernobyl",
+          "gold_docs": [
+            "MED-3617",
+            "MED-3620",
+            "MED-3622",
+            "MED-3631",
+            "MED-3632"
+          ],
+          "retrieved_docs": [
+            "MED-3622",
+            "MED-3632",
+            "MED-961",
+            "MED-952",
+            "MED-942"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.359,
+          "predicted_answer": "Dietary and clastogenic factors in children who immigrated to Israel from regions contaminated by the Chernobyl accident..",
+          "gold_answer": "The Chernobyl nuclear disaster caused extensive radioactive fallout with radioiodine and radiocesium, leading to increased rates of pediatric thyroid cancer and long-term environmental contamination.",
+          "em": 0.0,
+          "f1": 0.1538
+        },
+        {
+          "id": "PLAIN-3231",
+          "question": "Meat & Multiple Myeloma",
+          "gold_docs": [
+            "MED-4820",
+            "MED-4821",
+            "MED-4436",
+            "MED-4437",
+            "MED-5032"
+          ],
+          "retrieved_docs": [
+            "MED-1105",
+            "MED-3314",
+            "MED-1115",
+            "MED-1107",
+            "MED-1103"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0
+        },
+        {
+          "id": "PLAIN-1919",
+          "question": "poultry workers",
+          "gold_docs": [
+            "MED-3314",
+            "MED-3306",
+            "MED-3307",
+            "MED-3316",
+            "MED-3311"
+          ],
+          "retrieved_docs": [
+            "MED-3321",
+            "MED-4431",
+            "MED-3320",
+            "MED-4819",
+            "MED-4433"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.7273,
+          "predicted_answer": "We compared ALSV antibody levels in poultry workers and control subjects.",
+          "gold_answer": "Occupational exposure in poultry processing workers is associated with increased risk of zoonotic viral exposures, respiratory illnesses, and elevated mortality from hematopoietic and lung cancers.",
+          "em": 0.0,
+          "f1": 0.2222
+        },
+        {
+          "id": "PLAIN-3372",
+          "question": "The Healthiest Sweetener",
+          "gold_docs": [
+            "MED-5056",
+            "MED-3742",
+            "MED-2826",
+            "MED-2827",
+            "MED-2830"
+          ],
+          "retrieved_docs": [
+            "MED-4868",
+            "MED-4120",
+            "MED-1625",
+            "MED-4126",
+            "MED-1108"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0
+        },
+        {
+          "id": "PLAIN-902",
+          "question": "chlorophyll",
+          "gold_docs": [
+            "MED-4194",
+            "MED-4195",
+            "MED-4196",
+            "MED-4197"
+          ],
+          "retrieved_docs": [
+            "MED-4195",
+            "MED-4197",
+            "MED-3555",
+            "MED-4849",
+            "MED-961"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.6367,
+          "predicted_answer": "Effects of chlorophyll and chlorophyllin on low-dose aflatoxin B(1) pharmacokinetics in human volunteers..",
+          "gold_answer": "Chlorophyll and chlorophyllin derivatives have shown anticarcinogenic and antimutagenic effects by binding tightly to planar carcinogens like aflatoxins to reduce gastrointestinal bioavailability.",
+          "em": 0.0,
+          "f1": 0.2286
+        },
+        {
+          "id": "PLAIN-33",
+          "question": "What\u2019s Driving America\u2019s Obesity Problem?",
+          "gold_docs": [
+            "MED-2717",
+            "MED-2715",
+            "MED-2716",
+            "MED-2718",
+            "MED-2721"
+          ],
+          "retrieved_docs": [
+            "MED-2715",
+            "MED-1987",
+            "MED-5093",
+            "MED-3635",
+            "MED-1878"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.2298
+        },
+        {
+          "id": "PLAIN-1579",
+          "question": "mastitis",
+          "gold_docs": [
+            "MED-4667",
+            "MED-5109",
+            "MED-4665",
+            "MED-4666",
+            "MED-4668"
+          ],
+          "retrieved_docs": [
+            "MED-4667",
+            "MED-4801",
+            "MED-961",
+            "MED-952",
+            "MED-942"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.3392
+        },
+        {
+          "id": "PLAIN-2510",
+          "question": "Coffee and Artery Function",
+          "gold_docs": [
+            "MED-1634",
+            "MED-1635",
+            "MED-1636",
+            "MED-1637",
+            "MED-1638"
+          ],
+          "retrieved_docs": [
+            "MED-1648",
+            "MED-1640",
+            "MED-878",
+            "MED-1642",
+            "MED-1639"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.6835
+        },
+        {
+          "id": "PLAIN-1249",
+          "question": "genetic manipulation",
+          "gold_docs": [
+            "MED-4753",
+            "MED-4757",
+            "MED-4755",
+            "MED-4756"
+          ],
+          "retrieved_docs": [
+            "MED-3173",
+            "MED-5018",
+            "MED-3961",
+            "MED-2303",
+            "MED-3283"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0
+        },
+        {
+          "id": "PLAIN-2343",
+          "question": "vitamin K",
+          "gold_docs": [
+            "MED-5108",
+            "MED-5109"
+          ],
+          "retrieved_docs": [
+            "MED-4724",
+            "MED-859",
+            "MED-4104",
+            "MED-2762",
+            "MED-4589"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "Investigations showed vitamin B(12) deficiency with hematocytopenia and pervasive developmental disorders as well as vitamin K and vitamin D deficiencies.",
+          "gold_answer": "Vitamin K is essential for blood coagulation and bone mineralization by acting as a cofactor for the gamma-carboxylation of osteocalcin and clotting factors.",
+          "em": 0.0,
+          "f1": 0.2439
+        },
+        {
+          "id": "PLAIN-3402",
+          "question": "Antioxidant Content of 300 Foods",
+          "gold_docs": [
+            "MED-4544",
+            "MED-2008",
+            "MED-2009",
+            "MED-2010",
+            "MED-2011"
+          ],
+          "retrieved_docs": [
+            "MED-2951",
+            "MED-4689",
+            "MED-5056",
+            "MED-4413",
+            "MED-3093"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "Results The results demonstrate that there are several thousand-fold differences in antioxidant content of foods.",
+          "gold_answer": "Comprehensive profiling reveals plant-based foods, particularly spices, herbs, berries, and dark leafy greens, contain antioxidant levels multiple times higher than animal-based products.",
+          "em": 0.0,
+          "f1": 0.1111
+        },
+        {
+          "id": "PLAIN-1130",
+          "question": "ergothioneine",
+          "gold_docs": [
+            "MED-4165"
+          ],
+          "retrieved_docs": [
+            "MED-4165",
+            "MED-961",
+            "MED-952",
+            "MED-942",
+            "MED-941"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 1.0
+        },
+        {
+          "id": "PLAIN-3116",
+          "question": "Dietary Guidelines: From Dairies to Berries",
+          "gold_docs": [
+            "MED-5331"
+          ],
+          "retrieved_docs": [
+            "MED-2924",
+            "MED-3718",
+            "MED-4900",
+            "MED-2665",
+            "MED-5123"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "Apart from several essential dietary components found in berries, such as vitamins, minerals, and fiber, berries also contain numerous bioactives that provide health benefits that extend beyond basic ",
+          "gold_answer": "Dietary guideline updates emphasize shifting consumption from saturated fat-heavy dairy and red meats toward nutrient-dense fruits, vegetables, and berries.",
+          "em": 0.0,
+          "f1": 0.1667
+        },
+        {
+          "id": "PLAIN-143",
+          "question": "Are Dental X-Rays Safe?",
+          "gold_docs": [
+            "MED-3618",
+            "MED-3621",
+            "MED-3619",
+            "MED-3601",
+            "MED-3602"
+          ],
+          "retrieved_docs": [
+            "MED-3621",
+            "MED-2093",
+            "MED-4028",
+            "MED-4027",
+            "MED-4036"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.5125
+        },
+        {
+          "id": "PLAIN-2800",
+          "question": "Prolonged Liver Function Enhancement From Broccoli",
+          "gold_docs": [
+            "MED-4040",
+            "MED-4976",
+            "MED-5197",
+            "MED-4049",
+            "MED-4053"
+          ],
+          "retrieved_docs": [
+            "MED-3164",
+            "MED-2235",
+            "MED-4454",
+            "MED-2068",
+            "MED-2232"
+          ],
+          "hit_rank": 3,
+          "ndcg@10": 0.0568,
+          "predicted_answer": "Prolonged exercise and heavy training are associated with depressed immune cell function.",
+          "gold_answer": "Cruciferous vegetables like broccoli contain sulforaphane precursors that induce phase 2 liver detoxification enzymes and promote cellular protection against environmental carcinogens.",
+          "em": 0.0,
+          "f1": 0.0606
+        },
+        {
+          "id": "PLAIN-1331",
+          "question": "hearing",
+          "gold_docs": [
+            "MED-4375"
+          ],
+          "retrieved_docs": [
+            "MED-1049",
+            "MED-3381",
+            "MED-3391",
+            "MED-961",
+            "MED-952"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "Although we do not like hearing the details of someone else's bowel movement, it is a function that nurses need to assess, support, and treat with the same attitude as when caring for patients with pa",
+          "gold_answer": "Sensorineural hearing loss can be exacerbated by vascular disease and oxidative stress, whereas diets rich in antioxidants and carotenoids are associated with preserved auditory function.",
+          "em": 0.0,
+          "f1": 0.1379
+        },
+        {
+          "id": "PLAIN-1236",
+          "question": "galactosemia",
+          "gold_docs": [
+            "MED-1337",
+            "MED-1338",
+            "MED-1339",
+            "MED-1340",
+            "MED-1341"
+          ],
+          "retrieved_docs": [
+            "MED-1341",
+            "MED-961",
+            "MED-952",
+            "MED-942",
+            "MED-941"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.3392,
+          "predicted_answer": "Skeletal health in adult patients with classic galactosemia..",
+          "gold_answer": "Classic galactosemia is an inherited metabolic disorder caused by deficiency of galactose-1-phosphate uridylyltransferase, managed strictly through lifelong dietary elimination of lactose and galactose.",
+          "em": 0.0,
+          "f1": 0.1333
+        },
+        {
+          "id": "PLAIN-531",
+          "question": "alternative medicine",
+          "gold_docs": [
+            "MED-2527",
+            "MED-2706",
+            "MED-2708",
+            "MED-2707",
+            "MED-2711"
+          ],
+          "retrieved_docs": [
+            "MED-3607",
+            "MED-3726",
+            "MED-3113",
+            "MED-4374",
+            "MED-4128"
+          ],
+          "hit_rank": 4,
+          "ndcg@10": 0.3038,
+          "predicted_answer": "However, no ideal, safe synthetic radioprotectors are available to date, so the search for alternative sources, including plants, has been on going for several decades.",
+          "gold_answer": "Complementary and alternative medicine modalities frequently lack rigorous randomized controlled trial verification, necessitating critical evaluation of efficacy, safety, and drug interactions.",
+          "em": 0.0,
+          "f1": 0.0444
+        },
+        {
+          "id": "PLAIN-165",
+          "question": "Breast Cancer & Alcohol: How Much is Safe?",
+          "gold_docs": [
+            "MED-3762",
+            "MED-3763",
+            "MED-3764",
+            "MED-3696",
+            "MED-3697"
+          ],
+          "retrieved_docs": [
+            "MED-4445",
+            "MED-3766",
+            "MED-3762",
+            "MED-4465",
+            "MED-3696"
+          ],
+          "hit_rank": 2,
+          "ndcg@10": 0.3238
+        },
+        {
+          "id": "PLAIN-175",
+          "question": "Diet and Cellulite",
+          "gold_docs": [
+            "MED-3815",
+            "MED-3816",
+            "MED-3820",
+            "MED-3821",
+            "MED-3817"
+          ],
+          "retrieved_docs": [
+            "MED-3818",
+            "MED-3816",
+            "MED-3822",
+            "MED-5200",
+            "MED-2294"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.325,
+          "predicted_answer": "METHODS: A total of 15 lean (body mass index [BMI] < 25 kg/m(2) ) women with cellulite and 15 age- and BMI-matched women without cellulite participated in this study.",
+          "gold_answer": "Dietary modifications aimed at weight loss and reduction in body fat percentage, combined with physical exercise, produce moderate improvement in the clinical appearance of cellulite.",
+          "em": 0.0,
+          "f1": 0.24
+        },
+        {
+          "id": "PLAIN-2364",
+          "question": "weight gain",
+          "gold_docs": [
+            "MED-3866",
+            "MED-3869",
+            "MED-1342",
+            "MED-1343",
+            "MED-1344"
+          ],
+          "retrieved_docs": [
+            "MED-2595",
+            "MED-5004",
+            "MED-2718",
+            "MED-4707",
+            "MED-4764"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0
+        },
+        {
+          "id": "PLAIN-3271",
+          "question": "Saturated Fat & Cancer Progression",
+          "gold_docs": [
+            "MED-1527",
+            "MED-1528",
+            "MED-1529",
+            "MED-1530",
+            "MED-1531"
+          ],
+          "retrieved_docs": [
+            "MED-4450",
+            "MED-1781",
+            "MED-4823",
+            "MED-5267",
+            "MED-1455"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "This study suggests that lower intake of saturated and trans fat in the post-diagnosis diet is associated with improved survival after breast cancer diagnosis.",
+          "gold_answer": "High dietary intake of saturated animal fat has been correlated in epidemiological cohorts with increased systemic inflammation and accelerated progression of certain endocrine-related cancers.",
+          "em": 0.0,
+          "f1": 0.2979
+        },
+        {
+          "id": "PLAIN-499",
+          "question": "African-American",
+          "gold_docs": [
+            "MED-2896",
+            "MED-2899",
+            "MED-2900",
+            "MED-2901",
+            "MED-1103"
+          ],
+          "retrieved_docs": [
+            "MED-2900",
+            "MED-4095",
+            "MED-1475",
+            "MED-5201",
+            "MED-4893"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.4323,
+          "predicted_answer": "Purpose To explore the association between consumption of fruits and vegetables and the presence of glaucoma in older African American women.",
+          "gold_answer": "African-American populations exhibit disproportionately higher burdens of cardiovascular disease, prostate cancer, and hypertension, influenced by health disparities and systemic environmental factors.",
+          "em": 0.0,
+          "f1": 0.15
+        },
+        {
+          "id": "PLAIN-3014",
+          "question": "Sometimes the Enzyme Myth Is True",
+          "gold_docs": [
+            "MED-4454"
+          ],
+          "retrieved_docs": [
+            "MED-2062",
+            "MED-4871",
+            "MED-5088",
+            "MED-1378",
+            "MED-2944"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "RESULTS: At the end of the study, 69% of the \"true-diet group\" and 45% of the \"sham-diet group\" showed complete healing of AFs (P<0.0002).",
+          "gold_answer": "While most ingested digestive enzymes are denatured in gastric acid, specific plant enzymes such as bromelain and papain can retain bioactive properties and systemic anti-inflammatory actions.",
+          "em": 0.0,
+          "f1": 0.0435
+        },
+        {
+          "id": "PLAIN-583",
+          "question": "antinutrients",
+          "gold_docs": [
+            "MED-2575",
+            "MED-2580",
+            "MED-2571",
+            "MED-2583",
+            "MED-2574"
+          ],
+          "retrieved_docs": [
+            "MED-10",
+            "MED-14",
+            "MED-118",
+            "MED-301",
+            "MED-306"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "I couldn't find sufficient information to answer that.",
+          "gold_answer": "Dietary antinutrients like phytates, tannins, and oxalates can decrease mineral bioavailability, but also confer antioxidant and anticancer benefits in varied plant-based diets.",
+          "em": 0.0,
+          "f1": 0.0
+        },
+        {
+          "id": "PLAIN-782",
+          "question": "Bush administration",
+          "gold_docs": [
+            "MED-4991",
+            "MED-4992"
+          ],
+          "retrieved_docs": [
+            "MED-1055",
+            "MED-1248",
+            "MED-3987",
+            "MED-1711",
+            "MED-3056"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "Why the Bush administration and the global sugar industry are determined to demolish the 2004 WHO global strategy on diet, physical activity and he....",
+          "gold_answer": "Federal regulations under the Bush administration regarding environmental contaminants and chemical safety faced scrutiny over scientific advisory procedures and chemical safety guidelines.",
+          "em": 0.0,
+          "f1": 0.1905
+        },
+        {
+          "id": "PLAIN-1275",
+          "question": "goji berries",
+          "gold_docs": [
+            "MED-2882",
+            "MED-2898",
+            "MED-2884",
+            "MED-2885",
+            "MED-2886"
+          ],
+          "retrieved_docs": [
+            "MED-4712",
+            "MED-2886",
+            "MED-1676",
+            "MED-4900",
+            "MED-2924"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.4441
+        },
+        {
+          "id": "PLAIN-1398",
+          "question": "IGF-1",
+          "gold_docs": [
+            "MED-2513",
+            "MED-2502",
+            "MED-2498",
+            "MED-2504",
+            "MED-2505"
+          ],
+          "retrieved_docs": [
+            "MED-1715",
+            "MED-4212",
+            "MED-4897",
+            "MED-4228",
+            "MED-4216"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.8701,
+          "predicted_answer": "In contrast, total and free IGF-1 concentrations were significantly lower in moderately protein-restricted individuals.",
+          "gold_answer": "Elevated circulating levels of Insulin-Like Growth Factor 1 (IGF-1), often driven by higher animal protein intake, promote cellular proliferation and are associated with increased risk of malignancies.",
+          "em": 0.0,
+          "f1": 0.0976
+        },
+        {
+          "id": "PLAIN-1557",
+          "question": "magnesium",
+          "gold_docs": [
+            "MED-3137",
+            "MED-3148",
+            "MED-3149",
+            "MED-4313",
+            "MED-1133"
+          ],
+          "retrieved_docs": [
+            "MED-1406",
+            "MED-2248",
+            "MED-3918",
+            "MED-1447",
+            "MED-4315"
+          ],
+          "hit_rank": 3,
+          "ndcg@10": 0.3398,
+          "predicted_answer": "energy-adjusted tertiles of magnesium intake and relative risk of CVD and mortality.",
+          "gold_answer": "Dietary magnesium serves as an essential cofactor in hundreds of enzymatic reactions, regulating muscle contractions, vascular tone, and glycemic control.",
+          "em": 0.0,
+          "f1": 0.1935
+        },
+        {
+          "id": "PLAIN-133",
+          "question": "Starving Tumors of Their Blood Supply",
+          "gold_docs": [
+            "MED-3549",
+            "MED-3550",
+            "MED-3551",
+            "MED-3554",
+            "MED-3555"
+          ],
+          "retrieved_docs": [
+            "MED-1666",
+            "MED-5138",
+            "MED-4423",
+            "MED-1665",
+            "MED-2923"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "The nutrient supply can fail due to changes in blood supply, sclerosis of the subchondral bone or endplate calcification, all of which can block transport from blood supply to the disc or due to chang",
+          "gold_answer": "Anti-angiogenic therapies and dietary phytochemicals inhibit vascular endothelial growth factors, suppressing tumor neovascularization and limiting nutrient delivery to solid tumors.",
+          "em": 0.0,
+          "f1": 0.0727
+        },
+        {
+          "id": "PLAIN-634",
+          "question": "avocados",
+          "gold_docs": [
+            "MED-1463",
+            "MED-1454",
+            "MED-1455",
+            "MED-1456",
+            "MED-1457"
+          ],
+          "retrieved_docs": [
+            "MED-1378",
+            "MED-4619",
+            "MED-961",
+            "MED-952",
+            "MED-942"
+          ],
+          "hit_rank": 2,
+          "ndcg@10": 0.1389
+        }
+      ]
+    },
+    "tfidf": {
+      "metrics": {
+        "method": "tfidf",
+        "n_questions_scored": 49,
+        "n_with_gold_answers": 30,
+        "recall@1": 0.3878,
+        "recall@3": 0.551,
+        "recall@5": 0.5714,
+        "recall@10": 0.5714,
+        "mrr@10": 0.4677,
+        "ndcg@10": 0.2343,
+        "exact_match": 0.0,
+        "f1": 0.1414,
+        "latency_ms_mean": 2.14,
+        "latency_ms_median": 2.18,
+        "latency_ms_p95": 2.36,
+        "index_build_time_s": 13.86,
+        "index_peak_memory_mb": 169.73
+      },
+      "per_question": [
+        {
+          "id": "PLAIN-1098",
+          "question": "eggnog",
+          "gold_docs": [
+            "MED-3806",
+            "MED-3807",
+            "MED-3808",
+            "MED-3809",
+            "MED-3810"
+          ],
+          "retrieved_docs": [
+            "MED-10",
+            "MED-14",
+            "MED-118",
+            "MED-301",
+            "MED-306"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "I couldn't find sufficient information to answer that.",
+          "gold_answer": "Spices used in holiday eggnog like nutmeg contain allylbenzene compounds which have documented central nervous system neuromodulatory and toxicological effects upon excessive ingestion.",
+          "em": 0.0,
+          "f1": 0.0
+        },
+        {
+          "id": "PLAIN-2040",
+          "question": "salmon",
+          "gold_docs": [
+            "MED-2644",
+            "MED-2646",
+            "MED-2651",
+            "MED-118",
+            "MED-2652"
+          ],
+          "retrieved_docs": [
+            "MED-4933",
+            "MED-4961",
+            "MED-4936",
+            "MED-3024",
+            "MED-4943"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.6332,
+          "predicted_answer": "Polybrominated diphenyl ethers (PBDEs) in farmed and wild salmon marketed in the Northeastern United States..",
+          "gold_answer": "Salmon provides high levels of omega-3 fatty acids EPA and DHA, but farm-raised and wild salmon can accumulate environmental contaminants like PCBs and alkylphenols depending on water quality and feed.",
+          "em": 0.0,
+          "f1": 0.1364
+        },
+        {
+          "id": "PLAIN-1667",
+          "question": "muscle health",
+          "gold_docs": [
+            "MED-2527",
+            "MED-3454",
+            "MED-3163",
+            "MED-3156",
+            "MED-3164"
+          ],
+          "retrieved_docs": [
+            "MED-1466",
+            "MED-3462",
+            "MED-3171",
+            "MED-1474",
+            "MED-1460"
+          ],
+          "hit_rank": 2,
+          "ndcg@10": 0.5658,
+          "predicted_answer": "How free fatty acids inhibit glucose utilization in human skeletal muscle..",
+          "gold_answer": "Maintaining muscle mass and muscular health requires adequate essential amino acid intake, particularly branched-chain amino acids like leucine, combined with progressive resistance training.",
+          "em": 0.0,
+          "f1": 0.1176
+        },
+        {
+          "id": "PLAIN-457",
+          "question": "How can you believe in any scientific study?",
+          "gold_docs": [
+            "MED-952",
+            "MED-5159",
+            "MED-5160",
+            "MED-5161",
+            "MED-5162"
+          ],
+          "retrieved_docs": [
+            "MED-1797",
+            "MED-728",
+            "MED-2710",
+            "MED-1407",
+            "MED-4489"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0
+        },
+        {
+          "id": "PLAIN-2124",
+          "question": "spearmint",
+          "gold_docs": [
+            "MED-1240",
+            "MED-1241",
+            "MED-1242",
+            "MED-1243",
+            "MED-1244"
+          ],
+          "retrieved_docs": [
+            "MED-1525",
+            "MED-1522",
+            "MED-961",
+            "MED-952",
+            "MED-942"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.359
+        },
+        {
+          "id": "PLAIN-701",
+          "question": "black raspberries",
+          "gold_docs": [
+            "MED-3714",
+            "MED-3720",
+            "MED-3721",
+            "MED-3715",
+            "MED-3716"
+          ],
+          "retrieved_docs": [
+            "MED-3720",
+            "MED-2922",
+            "MED-917",
+            "MED-3721",
+            "MED-2280"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.3619,
+          "predicted_answer": "Black raspberries are a rich natural source of chemopreventive phytochemicals.",
+          "gold_answer": "Black raspberries are rich in anthocyanins and ellagitannins that exhibit potent antioxidant, anti-inflammatory, and chemopreventive properties against oral and aerodigestive tract cancers.",
+          "em": 0.0,
+          "f1": 0.3226
+        },
+        {
+          "id": "PLAIN-2960",
+          "question": "Pharmacists Versus Health Food Store Employees: Who Gives Better Advice?",
+          "gold_docs": [
+            "MED-4370",
+            "MED-4575"
+          ],
+          "retrieved_docs": [
+            "MED-4371",
+            "MED-4374",
+            "MED-4372",
+            "MED-4370",
+            "MED-2016"
+          ],
+          "hit_rank": 4,
+          "ndcg@10": 0.3558,
+          "predicted_answer": "Emerging issues associated with HIV patients seeking advice from health food stores..",
+          "gold_answer": "Pharmacists provide significantly more accurate, evidence-based health and drug interaction advice compared to health food store employees who frequently recommend unproven supplements without safety warnings.",
+          "em": 0.0,
+          "f1": 0.1622
+        },
+        {
+          "id": "PLAIN-2570",
+          "question": "Diabetics Should Take Their Pulses",
+          "gold_docs": [
+            "MED-2140",
+            "MED-2141",
+            "MED-4319",
+            "MED-2143",
+            "MED-2144"
+          ],
+          "retrieved_docs": [
+            "MED-2009",
+            "MED-2145",
+            "MED-4232",
+            "MED-4320",
+            "MED-2148"
+          ],
+          "hit_rank": 2,
+          "ndcg@10": 0.1601,
+          "predicted_answer": "As with other pulses, chickpea seeds also contain anti-nutritional factors which can be reduced or eliminated by different cooking techniques.",
+          "gold_answer": "Consuming dietary pulses such as lentils, chickpeas, and beans significantly improves glycemic control and reduces cardiovascular risk factors in patients with type 2 diabetes.",
+          "em": 0.0,
+          "f1": 0.1818
+        },
+        {
+          "id": "PLAIN-238",
+          "question": "How Chemically Contaminated Are We?",
+          "gold_docs": [
+            "MED-4474",
+            "MED-4475",
+            "MED-4476",
+            "MED-4477",
+            "MED-4479"
+          ],
+          "retrieved_docs": [
+            "MED-3687",
+            "MED-3651",
+            "MED-5224",
+            "MED-2746",
+            "MED-3054"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "Five strains grew and acidified chemically defined medium with fructo-oligosaccharides (FOS) as the only carbon source.",
+          "gold_answer": "Biomonitoring studies show extensive human contamination with persistent organic pollutants, endocrine disruptors, and heavy metals bioaccumulating through industrial food chains.",
+          "em": 0.0,
+          "f1": 0.1143
+        },
+        {
+          "id": "PLAIN-1506",
+          "question": "leucine",
+          "gold_docs": [
+            "MED-2513",
+            "MED-2502",
+            "MED-2498",
+            "MED-2504",
+            "MED-2505"
+          ],
+          "retrieved_docs": [
+            "MED-2126",
+            "MED-5239",
+            "MED-2121",
+            "MED-4306",
+            "MED-2509"
+          ],
+          "hit_rank": 2,
+          "ndcg@10": 0.224
+        },
+        {
+          "id": "PLAIN-1940",
+          "question": "prolactin",
+          "gold_docs": [
+            "MED-3801",
+            "MED-3794",
+            "MED-666",
+            "MED-3791",
+            "MED-3792"
+          ],
+          "retrieved_docs": [
+            "MED-3792",
+            "MED-3797",
+            "MED-4946",
+            "MED-4114",
+            "MED-2006"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.359
+        },
+        {
+          "id": "PLAIN-2019",
+          "question": "rickets",
+          "gold_docs": [
+            "MED-4575",
+            "MED-4573",
+            "MED-4574"
+          ],
+          "retrieved_docs": [
+            "MED-10",
+            "MED-14",
+            "MED-118",
+            "MED-301",
+            "MED-306"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0
+        },
+        {
+          "id": "PLAIN-551",
+          "question": "amnesia",
+          "gold_docs": [
+            "MED-4380",
+            "MED-4381"
+          ],
+          "retrieved_docs": [
+            "MED-10",
+            "MED-14",
+            "MED-118",
+            "MED-301",
+            "MED-306"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0
+        },
+        {
+          "id": "PLAIN-2134",
+          "question": "Splenda",
+          "gold_docs": [
+            "MED-1574",
+            "MED-1575",
+            "MED-1576",
+            "MED-1577",
+            "MED-1578"
+          ],
+          "retrieved_docs": [
+            "MED-10",
+            "MED-14",
+            "MED-118",
+            "MED-301",
+            "MED-306"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "I couldn't find sufficient information to answer that.",
+          "gold_answer": "Splenda (sucralose) is an artificial non-caloric sweetener whose biological effects on gut microbiota and insulin sensitivity continue to be evaluated in clinical and toxicological studies.",
+          "em": 0.0,
+          "f1": 0.0625
+        },
+        {
+          "id": "PLAIN-3342",
+          "question": "Is Coconut Milk Good For You?",
+          "gold_docs": [
+            "MED-5012",
+            "MED-5013",
+            "MED-5014"
+          ],
+          "retrieved_docs": [
+            "MED-5012",
+            "MED-5015",
+            "MED-5016",
+            "MED-4000",
+            "MED-4004"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.6364,
+          "predicted_answer": "Coconut flour is a good source of both soluble and insoluble dietary fiber, and both types of fiber may have significant role in the reduction of the above lipid biomarker.",
+          "gold_answer": "Coconut milk is high in saturated fatty acids, particularly lauric acid, which raises serum total cholesterol and LDL cholesterol, requiring moderate consumption in cardiovascular disease prevention.",
+          "em": 0.0,
+          "f1": 0.1509
+        },
+        {
+          "id": "PLAIN-3412",
+          "question": "Plant vs. Cow Calcium",
+          "gold_docs": [
+            "MED-5108",
+            "MED-5109",
+            "MED-1703",
+            "MED-1699",
+            "MED-1700"
+          ],
+          "retrieved_docs": [
+            "MED-4682",
+            "MED-2055",
+            "MED-4882",
+            "MED-4898",
+            "MED-936"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.1685,
+          "predicted_answer": "This study compares calcium absorption from soymilk fortified with a proprietary phosphate of calcium versus absorption from cow's milk.",
+          "gold_answer": "Calcium from low-oxalate plant sources such as kale and fortified plant milks exhibits fractional absorption comparable to or exceeding the bioavailability of dairy cow milk calcium.",
+          "em": 0.0,
+          "f1": 0.3256
+        },
+        {
+          "id": "PLAIN-1897",
+          "question": "polypropylene plastic",
+          "gold_docs": [
+            "MED-4991",
+            "MED-4992"
+          ],
+          "retrieved_docs": [
+            "MED-2644",
+            "MED-4186",
+            "MED-4426",
+            "MED-1312",
+            "MED-2559"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0
+        },
+        {
+          "id": "PLAIN-1225",
+          "question": "fructose",
+          "gold_docs": [
+            "MED-1259",
+            "MED-2529",
+            "MED-1261",
+            "MED-1262",
+            "MED-1674"
+          ],
+          "retrieved_docs": [
+            "MED-918",
+            "MED-1710",
+            "MED-1674",
+            "MED-3059",
+            "MED-1672"
+          ],
+          "hit_rank": 2,
+          "ndcg@10": 0.4124,
+          "predicted_answer": "These data suggest that coingestion of equimolar concentrations of fructose and erythritol increased carbohydrate malabsorption.",
+          "gold_answer": "Excessive dietary intake of industrial free fructose and high-fructose corn syrup promotes hepatic lipogenesis, non-alcoholic fatty liver disease, and insulin resistance compared to glucose.",
+          "em": 0.0,
+          "f1": 0.1538
+        },
+        {
+          "id": "PLAIN-882",
+          "question": "Chernobyl",
+          "gold_docs": [
+            "MED-3617",
+            "MED-3620",
+            "MED-3622",
+            "MED-3631",
+            "MED-3632"
+          ],
+          "retrieved_docs": [
+            "MED-3622",
+            "MED-3632",
+            "MED-961",
+            "MED-952",
+            "MED-942"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.359,
+          "predicted_answer": "Dietary and clastogenic factors in children who immigrated to Israel from regions contaminated by the Chernobyl accident..",
+          "gold_answer": "The Chernobyl nuclear disaster caused extensive radioactive fallout with radioiodine and radiocesium, leading to increased rates of pediatric thyroid cancer and long-term environmental contamination.",
+          "em": 0.0,
+          "f1": 0.1538
+        },
+        {
+          "id": "PLAIN-3231",
+          "question": "Meat & Multiple Myeloma",
+          "gold_docs": [
+            "MED-4820",
+            "MED-4821",
+            "MED-4436",
+            "MED-4437",
+            "MED-5032"
+          ],
+          "retrieved_docs": [
+            "MED-1105",
+            "MED-1104",
+            "MED-1103",
+            "MED-3314",
+            "MED-1115"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0
+        },
+        {
+          "id": "PLAIN-1919",
+          "question": "poultry workers",
+          "gold_docs": [
+            "MED-3314",
+            "MED-3306",
+            "MED-3307",
+            "MED-3316",
+            "MED-3311"
+          ],
+          "retrieved_docs": [
+            "MED-3321",
+            "MED-4431",
+            "MED-3315",
+            "MED-4819",
+            "MED-3320"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.7273,
+          "predicted_answer": "We compared ALSV antibody levels in poultry workers and control subjects.",
+          "gold_answer": "Occupational exposure in poultry processing workers is associated with increased risk of zoonotic viral exposures, respiratory illnesses, and elevated mortality from hematopoietic and lung cancers.",
+          "em": 0.0,
+          "f1": 0.2222
+        },
+        {
+          "id": "PLAIN-3372",
+          "question": "The Healthiest Sweetener",
+          "gold_docs": [
+            "MED-5056",
+            "MED-3742",
+            "MED-2826",
+            "MED-2827",
+            "MED-2830"
+          ],
+          "retrieved_docs": [
+            "MED-4868",
+            "MED-1625",
+            "MED-4120",
+            "MED-4126",
+            "MED-4994"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0
+        },
+        {
+          "id": "PLAIN-902",
+          "question": "chlorophyll",
+          "gold_docs": [
+            "MED-4194",
+            "MED-4195",
+            "MED-4196",
+            "MED-4197"
+          ],
+          "retrieved_docs": [
+            "MED-4195",
+            "MED-4197",
+            "MED-3555",
+            "MED-4849",
+            "MED-961"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.6367,
+          "predicted_answer": "Effects of chlorophyll and chlorophyllin on low-dose aflatoxin B(1) pharmacokinetics in human volunteers..",
+          "gold_answer": "Chlorophyll and chlorophyllin derivatives have shown anticarcinogenic and antimutagenic effects by binding tightly to planar carcinogens like aflatoxins to reduce gastrointestinal bioavailability.",
+          "em": 0.0,
+          "f1": 0.2286
+        },
+        {
+          "id": "PLAIN-33",
+          "question": "What\u2019s Driving America\u2019s Obesity Problem?",
+          "gold_docs": [
+            "MED-2717",
+            "MED-2715",
+            "MED-2716",
+            "MED-2718",
+            "MED-2721"
+          ],
+          "retrieved_docs": [
+            "MED-5094",
+            "MED-2715",
+            "MED-4366",
+            "MED-1173",
+            "MED-3635"
+          ],
+          "hit_rank": 2,
+          "ndcg@10": 0.145
+        },
+        {
+          "id": "PLAIN-1579",
+          "question": "mastitis",
+          "gold_docs": [
+            "MED-4667",
+            "MED-5109",
+            "MED-4665",
+            "MED-4666",
+            "MED-4668"
+          ],
+          "retrieved_docs": [
+            "MED-4667",
+            "MED-4801",
+            "MED-961",
+            "MED-952",
+            "MED-942"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.3392
+        },
+        {
+          "id": "PLAIN-2510",
+          "question": "Coffee and Artery Function",
+          "gold_docs": [
+            "MED-1634",
+            "MED-1635",
+            "MED-1636",
+            "MED-1637",
+            "MED-1638"
+          ],
+          "retrieved_docs": [
+            "MED-1648",
+            "MED-1640",
+            "MED-1649",
+            "MED-5278",
+            "MED-1642"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.5541
+        },
+        {
+          "id": "PLAIN-1249",
+          "question": "genetic manipulation",
+          "gold_docs": [
+            "MED-4753",
+            "MED-4757",
+            "MED-4755",
+            "MED-4756"
+          ],
+          "retrieved_docs": [
+            "MED-3173",
+            "MED-2303",
+            "MED-2090",
+            "MED-5018",
+            "MED-3961"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0
+        },
+        {
+          "id": "PLAIN-2343",
+          "question": "vitamin K",
+          "gold_docs": [
+            "MED-5108",
+            "MED-5109"
+          ],
+          "retrieved_docs": [
+            "MED-920",
+            "MED-4573",
+            "MED-5132",
+            "MED-5186",
+            "MED-3157"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "Vitamin D in the treatment of pulmonary tuberculosis..",
+          "gold_answer": "Vitamin K is essential for blood coagulation and bone mineralization by acting as a cofactor for the gamma-carboxylation of osteocalcin and clotting factors.",
+          "em": 0.0,
+          "f1": 0.1429
+        },
+        {
+          "id": "PLAIN-3402",
+          "question": "Antioxidant Content of 300 Foods",
+          "gold_docs": [
+            "MED-4544",
+            "MED-2008",
+            "MED-2009",
+            "MED-2010",
+            "MED-2011"
+          ],
+          "retrieved_docs": [
+            "MED-2951",
+            "MED-4689",
+            "MED-5056",
+            "MED-4516",
+            "MED-4522"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "Results The results demonstrate that there are several thousand-fold differences in antioxidant content of foods.",
+          "gold_answer": "Comprehensive profiling reveals plant-based foods, particularly spices, herbs, berries, and dark leafy greens, contain antioxidant levels multiple times higher than animal-based products.",
+          "em": 0.0,
+          "f1": 0.1111
+        },
+        {
+          "id": "PLAIN-1130",
+          "question": "ergothioneine",
+          "gold_docs": [
+            "MED-4165"
+          ],
+          "retrieved_docs": [
+            "MED-10",
+            "MED-14",
+            "MED-118",
+            "MED-301",
+            "MED-306"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0
+        },
+        {
+          "id": "PLAIN-3116",
+          "question": "Dietary Guidelines: From Dairies to Berries",
+          "gold_docs": [
+            "MED-5331"
+          ],
+          "retrieved_docs": [
+            "MED-1558",
+            "MED-3718",
+            "MED-1553",
+            "MED-4107",
+            "MED-5101"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "In this paper different sets of recommendations are analyzed following a systematic review process to examine dietary reference intakes, nutritional goals and dietary guidelines for fat and fatty acid",
+          "gold_answer": "Dietary guideline updates emphasize shifting consumption from saturated fat-heavy dairy and red meats toward nutrient-dense fruits, vegetables, and berries.",
+          "em": 0.0,
+          "f1": 0.1277
+        },
+        {
+          "id": "PLAIN-143",
+          "question": "Are Dental X-Rays Safe?",
+          "gold_docs": [
+            "MED-3618",
+            "MED-3621",
+            "MED-3619",
+            "MED-3601",
+            "MED-3602"
+          ],
+          "retrieved_docs": [
+            "MED-3621",
+            "MED-4027",
+            "MED-2093",
+            "MED-4028",
+            "MED-4036"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.5213
+        },
+        {
+          "id": "PLAIN-2800",
+          "question": "Prolonged Liver Function Enhancement From Broccoli",
+          "gold_docs": [
+            "MED-4040",
+            "MED-4976",
+            "MED-5197",
+            "MED-4049",
+            "MED-4053"
+          ],
+          "retrieved_docs": [
+            "MED-912",
+            "MED-4873",
+            "MED-4454",
+            "MED-1309",
+            "MED-3809"
+          ],
+          "hit_rank": 3,
+          "ndcg@10": 0.0568,
+          "predicted_answer": "Report: prunes and liver function: a clinical trial..",
+          "gold_answer": "Cruciferous vegetables like broccoli contain sulforaphane precursors that induce phase 2 liver detoxification enzymes and promote cellular protection against environmental carcinogens.",
+          "em": 0.0,
+          "f1": 0.1429
+        },
+        {
+          "id": "PLAIN-1331",
+          "question": "hearing",
+          "gold_docs": [
+            "MED-4375"
+          ],
+          "retrieved_docs": [
+            "MED-1049",
+            "MED-3381",
+            "MED-3391",
+            "MED-961",
+            "MED-952"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "Although we do not like hearing the details of someone else's bowel movement, it is a function that nurses need to assess, support, and treat with the same attitude as when caring for patients with pa",
+          "gold_answer": "Sensorineural hearing loss can be exacerbated by vascular disease and oxidative stress, whereas diets rich in antioxidants and carotenoids are associated with preserved auditory function.",
+          "em": 0.0,
+          "f1": 0.1379
+        },
+        {
+          "id": "PLAIN-1236",
+          "question": "galactosemia",
+          "gold_docs": [
+            "MED-1337",
+            "MED-1338",
+            "MED-1339",
+            "MED-1340",
+            "MED-1341"
+          ],
+          "retrieved_docs": [
+            "MED-1341",
+            "MED-961",
+            "MED-952",
+            "MED-942",
+            "MED-941"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.3392,
+          "predicted_answer": "Skeletal health in adult patients with classic galactosemia..",
+          "gold_answer": "Classic galactosemia is an inherited metabolic disorder caused by deficiency of galactose-1-phosphate uridylyltransferase, managed strictly through lifelong dietary elimination of lactose and galactose.",
+          "em": 0.0,
+          "f1": 0.1333
+        },
+        {
+          "id": "PLAIN-531",
+          "question": "alternative medicine",
+          "gold_docs": [
+            "MED-2527",
+            "MED-2706",
+            "MED-2708",
+            "MED-2707",
+            "MED-2711"
+          ],
+          "retrieved_docs": [
+            "MED-4371",
+            "MED-4374",
+            "MED-3113",
+            "MED-3607",
+            "MED-2298"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.5077,
+          "predicted_answer": "They also inquired as to employee education related to Complementary and Alternative Medicine (CAM) and noted whether employees asked about which conventional medications they were taking and whether ",
+          "gold_answer": "Complementary and alternative medicine modalities frequently lack rigorous randomized controlled trial verification, necessitating critical evaluation of efficacy, safety, and drug interactions.",
+          "em": 0.0,
+          "f1": 0.1695
+        },
+        {
+          "id": "PLAIN-165",
+          "question": "Breast Cancer & Alcohol: How Much is Safe?",
+          "gold_docs": [
+            "MED-3762",
+            "MED-3763",
+            "MED-3764",
+            "MED-3696",
+            "MED-3697"
+          ],
+          "retrieved_docs": [
+            "MED-3762",
+            "MED-3768",
+            "MED-4445",
+            "MED-3766",
+            "MED-3447"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.4991
+        },
+        {
+          "id": "PLAIN-175",
+          "question": "Diet and Cellulite",
+          "gold_docs": [
+            "MED-3815",
+            "MED-3816",
+            "MED-3820",
+            "MED-3821",
+            "MED-3817"
+          ],
+          "retrieved_docs": [
+            "MED-3818",
+            "MED-3822",
+            "MED-3816",
+            "MED-1374",
+            "MED-4854"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.2999,
+          "predicted_answer": "Our findings provide novel insights into the nature of cellulite and may give clues to the treatment of this cosmetic issue.",
+          "gold_answer": "Dietary modifications aimed at weight loss and reduction in body fat percentage, combined with physical exercise, produce moderate improvement in the clinical appearance of cellulite.",
+          "em": 0.0,
+          "f1": 0.1395
+        },
+        {
+          "id": "PLAIN-2364",
+          "question": "weight gain",
+          "gold_docs": [
+            "MED-3866",
+            "MED-3869",
+            "MED-1342",
+            "MED-1343",
+            "MED-1344"
+          ],
+          "retrieved_docs": [
+            "MED-2595",
+            "MED-2718",
+            "MED-5004",
+            "MED-4707",
+            "MED-2721"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0
+        },
+        {
+          "id": "PLAIN-3271",
+          "question": "Saturated Fat & Cancer Progression",
+          "gold_docs": [
+            "MED-1527",
+            "MED-1528",
+            "MED-1529",
+            "MED-1530",
+            "MED-1531"
+          ],
+          "retrieved_docs": [
+            "MED-3245",
+            "MED-4450",
+            "MED-1781",
+            "MED-1556",
+            "MED-4556"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "In conclusion, cruciferous vegetable intake after diagnosis may reduce risk of prostate cancer progression.",
+          "gold_answer": "High dietary intake of saturated animal fat has been correlated in epidemiological cohorts with increased systemic inflammation and accelerated progression of certain endocrine-related cancers.",
+          "em": 0.0,
+          "f1": 0.2105
+        },
+        {
+          "id": "PLAIN-499",
+          "question": "African-American",
+          "gold_docs": [
+            "MED-2896",
+            "MED-2899",
+            "MED-2900",
+            "MED-2901",
+            "MED-1103"
+          ],
+          "retrieved_docs": [
+            "MED-2900",
+            "MED-4095",
+            "MED-1475",
+            "MED-2213",
+            "MED-4893"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.4537,
+          "predicted_answer": "Purpose To explore the association between consumption of fruits and vegetables and the presence of glaucoma in older African American women.",
+          "gold_answer": "African-American populations exhibit disproportionately higher burdens of cardiovascular disease, prostate cancer, and hypertension, influenced by health disparities and systemic environmental factors.",
+          "em": 0.0,
+          "f1": 0.15
+        },
+        {
+          "id": "PLAIN-3014",
+          "question": "Sometimes the Enzyme Myth Is True",
+          "gold_docs": [
+            "MED-4454"
+          ],
+          "retrieved_docs": [
+            "MED-4871",
+            "MED-1378",
+            "MED-3452",
+            "MED-2062",
+            "MED-1762"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "Monosodium glutamate 'allergy': menace or myth?.",
+          "gold_answer": "While most ingested digestive enzymes are denatured in gastric acid, specific plant enzymes such as bromelain and papain can retain bioactive properties and systemic anti-inflammatory actions.",
+          "em": 0.0,
+          "f1": 0.0
+        },
+        {
+          "id": "PLAIN-583",
+          "question": "antinutrients",
+          "gold_docs": [
+            "MED-2575",
+            "MED-2580",
+            "MED-2571",
+            "MED-2583",
+            "MED-2574"
+          ],
+          "retrieved_docs": [
+            "MED-10",
+            "MED-14",
+            "MED-118",
+            "MED-301",
+            "MED-306"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "I couldn't find sufficient information to answer that.",
+          "gold_answer": "Dietary antinutrients like phytates, tannins, and oxalates can decrease mineral bioavailability, but also confer antioxidant and anticancer benefits in varied plant-based diets.",
+          "em": 0.0,
+          "f1": 0.0
+        },
+        {
+          "id": "PLAIN-782",
+          "question": "Bush administration",
+          "gold_docs": [
+            "MED-4991",
+            "MED-4992"
+          ],
+          "retrieved_docs": [
+            "MED-1248",
+            "MED-3987",
+            "MED-3056",
+            "MED-2208",
+            "MED-1711"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "Patients' attitudes to rectal drug administration..",
+          "gold_answer": "Federal regulations under the Bush administration regarding environmental contaminants and chemical safety faced scrutiny over scientific advisory procedures and chemical safety guidelines.",
+          "em": 0.0,
+          "f1": 0.0741
+        },
+        {
+          "id": "PLAIN-1275",
+          "question": "goji berries",
+          "gold_docs": [
+            "MED-2882",
+            "MED-2898",
+            "MED-2884",
+            "MED-2885",
+            "MED-2886"
+          ],
+          "retrieved_docs": [
+            "MED-4712",
+            "MED-2886",
+            "MED-4900",
+            "MED-1671",
+            "MED-2924"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.4441
+        },
+        {
+          "id": "PLAIN-1398",
+          "question": "IGF-1",
+          "gold_docs": [
+            "MED-2513",
+            "MED-2502",
+            "MED-2498",
+            "MED-2504",
+            "MED-2505"
+          ],
+          "retrieved_docs": [
+            "MED-1719",
+            "MED-1712",
+            "MED-1723",
+            "MED-4212",
+            "MED-1587"
+          ],
+          "hit_rank": 1,
+          "ndcg@10": 0.8701,
+          "predicted_answer": "CONCLUSIONS: Congenital IGF-I deficiency acts as a protecting factor for the development of cancer.",
+          "gold_answer": "Elevated circulating levels of Insulin-Like Growth Factor 1 (IGF-1), often driven by higher animal protein intake, promote cellular proliferation and are associated with increased risk of malignancies.",
+          "em": 0.0,
+          "f1": 0.1026
+        },
+        {
+          "id": "PLAIN-1557",
+          "question": "magnesium",
+          "gold_docs": [
+            "MED-3137",
+            "MED-3148",
+            "MED-3149",
+            "MED-4313",
+            "MED-1133"
+          ],
+          "retrieved_docs": [
+            "MED-1406",
+            "MED-2248",
+            "MED-3918",
+            "MED-4315",
+            "MED-1447"
+          ],
+          "hit_rank": 3,
+          "ndcg@10": 0.3527,
+          "predicted_answer": "energy-adjusted tertiles of magnesium intake and relative risk of CVD and mortality.",
+          "gold_answer": "Dietary magnesium serves as an essential cofactor in hundreds of enzymatic reactions, regulating muscle contractions, vascular tone, and glycemic control.",
+          "em": 0.0,
+          "f1": 0.1935
+        },
+        {
+          "id": "PLAIN-133",
+          "question": "Starving Tumors of Their Blood Supply",
+          "gold_docs": [
+            "MED-3549",
+            "MED-3550",
+            "MED-3551",
+            "MED-3554",
+            "MED-3555"
+          ],
+          "retrieved_docs": [
+            "MED-1666",
+            "MED-1665",
+            "MED-4423",
+            "MED-1659",
+            "MED-3696"
+          ],
+          "hit_rank": null,
+          "ndcg@10": 0.0,
+          "predicted_answer": "The nutrient supply can fail due to changes in blood supply, sclerosis of the subchondral bone or endplate calcification, all of which can block transport from blood supply to the disc or due to chang",
+          "gold_answer": "Anti-angiogenic therapies and dietary phytochemicals inhibit vascular endothelial growth factors, suppressing tumor neovascularization and limiting nutrient delivery to solid tumors.",
+          "em": 0.0,
+          "f1": 0.0727
+        },
+        {
+          "id": "PLAIN-634",
+          "question": "avocados",
+          "gold_docs": [
+            "MED-1463",
+            "MED-1454",
+            "MED-1455",
+            "MED-1456",
+            "MED-1457"
+          ],
+          "retrieved_docs": [
+            "MED-1378",
+            "MED-4619",
+            "MED-961",
+            "MED-952",
+            "MED-942"
+          ],
+          "hit_rank": 2,
+          "ndcg@10": 0.1389
+        }
+      ]
+    }
+  },
+  "edge_cases": [
+    {
+      "id": "edge_00",
+      "category": "empty_input",
+      "expected": "Reject politely: no question to process.",
+      "status": "empty_input",
+      "answer": "I don't have a question to process.",
+      "confidence": 0.0,
+      "latency_ms": 0.0
+    },
+    {
+      "id": "edge_01",
+      "category": "whitespace_only_input",
+      "expected": "Treated the same as empty input.",
+      "status": "empty_input",
+      "answer": "I don't have a question to process.",
+      "confidence": 0.0,
+      "latency_ms": 0.0
+    },
+    {
+      "id": "edge_02",
+      "category": "out_of_domain",
+      "expected": "Refuse: outside the knowledge base.",
+      "status": "ok",
+      "answer": "The purpose of the current research was to investigate the perception of increased flatulence and gastrointestinal discomfort among participants who consumed a cup of beans daily for 8 or 12 weeks.",
+      "confidence": 0.375,
+      "latency_ms": 14.6
+    },
+    {
+      "id": "edge_03",
+      "category": "out_of_domain",
+      "expected": "Refuse: outside the knowledge base.",
+      "status": "ok",
+      "answer": "is generally assumed by the international health community.",
+      "confidence": 0.571,
+      "latency_ms": 13.19
+    },
+    {
+      "id": "edge_04",
+      "category": "code_mixed",
+      "expected": "Retrieve on the English content words; do not crash.",
+      "status": "ok",
+      "answer": "Prevalence and correlates of vitamin D deficiency in US adults..",
+      "confidence": 0.5,
+      "latency_ms": 11.06
+    },
+    {
+      "id": "edge_05",
+      "category": "out_of_vocabulary",
+      "expected": "Low retrieval score; system should say it is unsure.",
+      "status": "ok",
+      "answer": "Growth Factors and their receptors in cancer metastases..",
+      "confidence": 0.333,
+      "latency_ms": 10.43
+    },
+    {
+      "id": "edge_06",
+      "category": "ambiguous",
+      "expected": "Ask for clarification or return a low-confidence answer.",
+      "status": "ok",
+      "answer": "It is a good source of carbohydrates and protein, and protein quality is considered to be better than other pulses.",
+      "confidence": 1.0,
+      "latency_ms": 6.12
+    },
+    {
+      "id": "edge_07",
+      "category": "very_long_input",
+      "expected": "Truncate to the model window; still return a result.",
+      "status": "truncated",
+      "answer": "A great deal of effort is now being devoted to the development of new drugs that hopefully will control the spread of inoperable cancer by safely inhibiting tumor-evoked angiogenesis.",
+      "confidence": 0.355,
+      "latency_ms": 528.24
+    },
+    {
+      "id": "edge_08",
+      "category": "unseen_information",
+      "expected": "Refuse: information not in the corpus.",
+      "status": "ok",
+      "answer": "Following on from the findings of a previous pilot study, we aimed to confirm whether a reduction in the amount of dietary microparticles facilitates induction of remission in patients with active Cro",
+      "confidence": 0.583,
+      "latency_ms": 19.21
+    },
+    {
+      "id": "edge_09",
+      "category": "non_linguistic_input",
+      "expected": "No usable query terms; refuse gracefully.",
+      "status": "no_usable_terms",
+      "answer": "I couldn't find any usable search terms in that input.",
+      "confidence": 0.0,
+      "latency_ms": 0.01
+    }
+  ]
+}
