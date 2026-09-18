@@ -1,0 +1,10 @@
+pandas
+scikit-learn
+rank_bm25
+nltk
+beir
+sentence-transformers
+transformers
+torch
+chromadb
+streamlit

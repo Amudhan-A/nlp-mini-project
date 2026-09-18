@@ -1,0 +1,555 @@
+{
+  "metrics": {
+    "model": "llama3.1:8b",
+    "retrieval_model": "BAAI/bge-small-en-v1.5",
+    "top_k": 5,
+    "n_questions": 30,
+    "exact_match": 0.0,
+    "f1": 0.1526,
+    "latency_ms_mean": 4009.2,
+    "latency_ms_median": 3445.33,
+    "latency_ms_p95": 6214.89
+  },
+  "per_question": [
+    {
+      "id": "PLAIN-1098",
+      "question": "eggnog",
+      "gold_answer": "Spices used in holiday eggnog like nutmeg contain allylbenzene compounds which have documented central nervous system neuromodulatory and toxicological effects upon excessive ingestion.",
+      "predicted_answer": "Insufficient information in the retrieved context.",
+      "em": 0.0,
+      "f1": 0.0714,
+      "retrieved_docs": [
+        "MED-2884",
+        "MED-2884",
+        "MED-1956",
+        "MED-2975",
+        "MED-4324"
+      ],
+      "retrieval_latency_ms": 20.59,
+      "generation_latency_ms": 6194.3,
+      "total_latency_ms": 6214.89
+    },
+    {
+      "id": "PLAIN-2040",
+      "question": "salmon",
+      "gold_answer": "Salmon provides high levels of omega-3 fatty acids EPA and DHA, but farm-raised and wild salmon can accumulate environmental contaminants like PCBs and alkylphenols depending on water quality and feed.",
+      "predicted_answer": "What is the relationship between eating salmon and Haff disease?\n\nHaff disease is a condition associated with eating contaminated fish, including salmon. It is characterized by muscle weakness and rhabdomyolysis, and the etiology is unknown, but it is suspected to be caused by a toxin.",
+      "em": 0.0,
+      "f1": 0.169,
+      "retrieved_docs": [
+        "MED-4961",
+        "MED-4933",
+        "MED-3024",
+        "MED-4936",
+        "MED-5101"
+      ],
+      "retrieval_latency_ms": 18.97,
+      "generation_latency_ms": 3989.47,
+      "total_latency_ms": 4008.44
+    },
+    {
+      "id": "PLAIN-1667",
+      "question": "muscle health",
+      "gold_answer": "Maintaining muscle mass and muscular health requires adequate essential amino acid intake, particularly branched-chain amino acids like leucine, combined with progressive resistance training.",
+      "predicted_answer": "Based on the provided context, here are some answers related to muscle health:\n\nQ: What is the effect of statin therapy on muscle health?\nA: Statin therapy can cause ultrastructural damage in skeletal muscle, including breakdown of the T-tubular system and subsarcolemmal rupture, even in asymptomatic patients.\n\nQ: Can statin therapy lead to muscle weakness and falls risk in older adults?\nA: Yes, statin therapy has been associated with decreased leg strength and muscle quality, and increased falls risk in older adults.\n\nQ: Is there a relationship between statin-associated myopathy and skeletal muscle damage?\nA: Yes, muscle injury was observed in 25 (of 44) patients with myopathy and in 1 patient without myopathy, and was associated with upregulation of ryanodine receptor 3.\n\nQ: What is the effect of an alkaline diet on muscle health in older adults?\nA: An alkaline diet, characterized by high potassium excretion and high fruit and vegetable content, is associated with increased lean tissue mass in older adults.\n\nQ: Can statin therapy exacerbate age-related muscle function declines?\nA: Yes, statin therapy has been shown to predict increased falls risk scores and decreased leg strength in older adults.",
+      "em": 0.0,
+      "f1": 0.0495,
+      "retrieved_docs": [
+        "MED-4830",
+        "MED-4829",
+        "MED-4828",
+        "MED-3220",
+        "MED-3235"
+      ],
+      "retrieval_latency_ms": 16.68,
+      "generation_latency_ms": 7974.22,
+      "total_latency_ms": 7990.91
+    },
+    {
+      "id": "PLAIN-701",
+      "question": "black raspberries",
+      "gold_answer": "Black raspberries are rich in anthocyanins and ellagitannins that exhibit potent antioxidant, anti-inflammatory, and chemopreventive properties against oral and aerodigestive tract cancers.",
+      "predicted_answer": "Black raspberries are a rich natural source of chemopreventive phytochemicals. They contain ferulic acid, beta-sitosterol, and ellagic acid, which have been shown to inhibit the growth of premalignant and malignant human oral cell lines.",
+      "em": 0.0,
+      "f1": 0.2963,
+      "retrieved_docs": [
+        "MED-3720",
+        "MED-2280",
+        "MED-3720",
+        "MED-2922",
+        "MED-917"
+      ],
+      "retrieval_latency_ms": 19.86,
+      "generation_latency_ms": 3914.75,
+      "total_latency_ms": 3934.61
+    },
+    {
+      "id": "PLAIN-2960",
+      "question": "Pharmacists Versus Health Food Store Employees: Who Gives Better Advice?",
+      "gold_answer": "Pharmacists provide significantly more accurate, evidence-based health and drug interaction advice compared to health food store employees who frequently recommend unproven supplements without safety warnings.",
+      "predicted_answer": "Insufficient information in the retrieved context to compare the advice given by pharmacists and health food store employees.",
+      "em": 0.0,
+      "f1": 0.3902,
+      "retrieved_docs": [
+        "MED-4372",
+        "MED-4371",
+        "MED-4374",
+        "MED-4374",
+        "MED-4371"
+      ],
+      "retrieval_latency_ms": 20.5,
+      "generation_latency_ms": 3096.73,
+      "total_latency_ms": 3117.23
+    },
+    {
+      "id": "PLAIN-2570",
+      "question": "Diabetics Should Take Their Pulses",
+      "gold_answer": "Consuming dietary pulses such as lentils, chickpeas, and beans significantly improves glycemic control and reduces cardiovascular risk factors in patients with type 2 diabetes.",
+      "predicted_answer": "Insufficient information in the retrieved context to answer the question \"Diabetics Should Take Their Pulses\".",
+      "em": 0.0,
+      "f1": 0.1081,
+      "retrieved_docs": [
+        "MED-2148",
+        "MED-2145",
+        "MED-2145",
+        "MED-3583",
+        "MED-1999"
+      ],
+      "retrieval_latency_ms": 20.48,
+      "generation_latency_ms": 3467.45,
+      "total_latency_ms": 3487.92
+    },
+    {
+      "id": "PLAIN-238",
+      "question": "How Chemically Contaminated Are We?",
+      "gold_answer": "Biomonitoring studies show extensive human contamination with persistent organic pollutants, endocrine disruptors, and heavy metals bioaccumulating through industrial food chains.",
+      "predicted_answer": "Insufficient information in the retrieved context to provide a comprehensive answer to the question \"How Chemically Contaminated Are We?\" However, based on the provided sources, it can be inferred that:\n\n* Exposure to toxicants such as mercury, arsenic, lead, and dioxin is widespread, particularly among children.\n* Food consumption is a significant source of exposure to these toxicants, with fish being a major contributor to mercury exposure.\n* The body burden of polybrominated diphenyl ethers (PBDEs) is associated with dietary habits, particularly the consumption of dairy products and meat.\n* Low-level exposure to biopersistent pollutants in the diet may pose a risk to people worldwide.\n\nTo provide a more comprehensive answer, further information on the scope and extent of chemical contamination would be necessary.",
+      "em": 0.0,
+      "f1": 0.0781,
+      "retrieved_docs": [
+        "MED-4739",
+        "MED-4733",
+        "MED-2494",
+        "MED-995",
+        "MED-3590"
+      ],
+      "retrieval_latency_ms": 17.46,
+      "generation_latency_ms": 6161.41,
+      "total_latency_ms": 6178.88
+    },
+    {
+      "id": "PLAIN-2134",
+      "question": "Splenda",
+      "gold_answer": "Splenda (sucralose) is an artificial non-caloric sweetener whose biological effects on gut microbiota and insulin sensitivity continue to be evaluated in clinical and toxicological studies.",
+      "predicted_answer": "There is no information about Splenda in the provided context.",
+      "em": 0.0,
+      "f1": 0.1818,
+      "retrieved_docs": [
+        "MED-2350",
+        "MED-2345",
+        "MED-4952",
+        "MED-2984",
+        "MED-4873"
+      ],
+      "retrieval_latency_ms": 13.95,
+      "generation_latency_ms": 3064.44,
+      "total_latency_ms": 3078.38
+    },
+    {
+      "id": "PLAIN-3342",
+      "question": "Is Coconut Milk Good For You?",
+      "gold_answer": "Coconut milk is high in saturated fatty acids, particularly lauric acid, which raises serum total cholesterol and LDL cholesterol, requiring moderate consumption in cardiovascular disease prevention.",
+      "predicted_answer": "Insufficient information in the retrieved context to determine if coconut milk is good for you. The context only provides information on the effects of coconut oil, coconut flakes, and coconut flour on lipid profiles and cardiovascular health, but does not specifically address coconut milk.",
+      "em": 0.0,
+      "f1": 0.1791,
+      "retrieved_docs": [
+        "MED-4001",
+        "MED-4000",
+        "MED-5012",
+        "MED-5014",
+        "MED-2053"
+      ],
+      "retrieval_latency_ms": 20.95,
+      "generation_latency_ms": 3879.99,
+      "total_latency_ms": 3900.94
+    },
+    {
+      "id": "PLAIN-3412",
+      "question": "Plant vs. Cow Calcium",
+      "gold_answer": "Calcium from low-oxalate plant sources such as kale and fortified plant milks exhibits fractional absorption comparable to or exceeding the bioavailability of dairy cow milk calcium.",
+      "predicted_answer": "The mean hourly fractional calcium absorption from fortified soymilk was comparable to that of cows' milk, with values of 0.65+/-0.19 and 0.66+/-0.22, respectively.",
+      "em": 0.0,
+      "f1": 0.4255,
+      "retrieved_docs": [
+        "MED-4682",
+        "MED-1134",
+        "MED-5145",
+        "MED-4894",
+        "MED-4682"
+      ],
+      "retrieval_latency_ms": 19.05,
+      "generation_latency_ms": 3600.91,
+      "total_latency_ms": 3619.96
+    },
+    {
+      "id": "PLAIN-1225",
+      "question": "fructose",
+      "gold_answer": "Excessive dietary intake of industrial free fructose and high-fructose corn syrup promotes hepatic lipogenesis, non-alcoholic fatty liver disease, and insulin resistance compared to glucose.",
+      "predicted_answer": "Fructose is a monosaccharide found in fruit and is also a component of sucrose (table sugar) and high-fructose corn syrup. It is metabolized primarily in the liver and can lead to the production of uric acid, lipogenesis, and worsening of blood lipids.",
+      "em": 0.0,
+      "f1": 0.3226,
+      "retrieved_docs": [
+        "MED-717",
+        "MED-1674",
+        "MED-717",
+        "MED-1710",
+        "MED-5057"
+      ],
+      "retrieval_latency_ms": 16.38,
+      "generation_latency_ms": 4132.01,
+      "total_latency_ms": 4148.39
+    },
+    {
+      "id": "PLAIN-882",
+      "question": "Chernobyl",
+      "gold_answer": "The Chernobyl nuclear disaster caused extensive radioactive fallout with radioiodine and radiocesium, leading to increased rates of pediatric thyroid cancer and long-term environmental contamination.",
+      "predicted_answer": "Insufficient information in the retrieved context.",
+      "em": 0.0,
+      "f1": 0.0,
+      "retrieved_docs": [
+        "MED-3622",
+        "MED-3635",
+        "MED-3632",
+        "MED-3630",
+        "MED-3632"
+      ],
+      "retrieval_latency_ms": 17.13,
+      "generation_latency_ms": 2856.59,
+      "total_latency_ms": 2873.72
+    },
+    {
+      "id": "PLAIN-1919",
+      "question": "poultry workers",
+      "gold_answer": "Occupational exposure in poultry processing workers is associated with increased risk of zoonotic viral exposures, respiratory illnesses, and elevated mortality from hematopoietic and lung cancers.",
+      "predicted_answer": "What is the occupation of the workers mentioned in the context?",
+      "em": 0.0,
+      "f1": 0.2424,
+      "retrieved_docs": [
+        "MED-4431",
+        "MED-3321",
+        "MED-4819",
+        "MED-3315",
+        "MED-4433"
+      ],
+      "retrieval_latency_ms": 17.04,
+      "generation_latency_ms": 3187.68,
+      "total_latency_ms": 3204.72
+    },
+    {
+      "id": "PLAIN-902",
+      "question": "chlorophyll",
+      "gold_answer": "Chlorophyll and chlorophyllin derivatives have shown anticarcinogenic and antimutagenic effects by binding tightly to planar carcinogens like aflatoxins to reduce gastrointestinal bioavailability.",
+      "predicted_answer": "What is chlorophyll?\n\nInsufficient information in the retrieved context.",
+      "em": 0.0,
+      "f1": 0.0667,
+      "retrieved_docs": [
+        "MED-4195",
+        "MED-2899",
+        "MED-860",
+        "MED-3359",
+        "MED-2895"
+      ],
+      "retrieval_latency_ms": 18.96,
+      "generation_latency_ms": 3264.94,
+      "total_latency_ms": 3283.9
+    },
+    {
+      "id": "PLAIN-2343",
+      "question": "vitamin K",
+      "gold_answer": "Vitamin K is essential for blood coagulation and bone mineralization by acting as a cofactor for the gamma-carboxylation of osteocalcin and clotting factors.",
+      "predicted_answer": "There is no information about vitamin K in the provided context.",
+      "em": 0.0,
+      "f1": 0.1935,
+      "retrieved_docs": [
+        "MED-4383",
+        "MED-922",
+        "MED-1447",
+        "MED-2693",
+        "MED-3986"
+      ],
+      "retrieval_latency_ms": 17.36,
+      "generation_latency_ms": 3348.32,
+      "total_latency_ms": 3365.68
+    },
+    {
+      "id": "PLAIN-3402",
+      "question": "Antioxidant Content of 300 Foods",
+      "gold_answer": "Comprehensive profiling reveals plant-based foods, particularly spices, herbs, berries, and dark leafy greens, contain antioxidant levels multiple times higher than animal-based products.",
+      "predicted_answer": "Insufficient information in the retrieved context to answer the question about the antioxidant content of 300 specific foods. The context only mentions that there are several thousand-fold differences in antioxidant content of foods, and that spices, herbs, and supplements include the most antioxidant-rich products, but it does not provide a list of the antioxidant content of 300 specific foods.",
+      "em": 0.0,
+      "f1": 0.1622,
+      "retrieved_docs": [
+        "MED-2951",
+        "MED-4689",
+        "MED-2951",
+        "MED-4689",
+        "MED-5083"
+      ],
+      "retrieval_latency_ms": 17.97,
+      "generation_latency_ms": 4204.95,
+      "total_latency_ms": 4222.92
+    },
+    {
+      "id": "PLAIN-3116",
+      "question": "Dietary Guidelines: From Dairies to Berries",
+      "gold_answer": "Dietary guideline updates emphasize shifting consumption from saturated fat-heavy dairy and red meats toward nutrient-dense fruits, vegetables, and berries.",
+      "predicted_answer": "Insufficient information in the retrieved context to answer the question about dietary guidelines from dairies to berries.",
+      "em": 0.0,
+      "f1": 0.1765,
+      "retrieved_docs": [
+        "MED-1558",
+        "MED-2665",
+        "MED-4833",
+        "MED-3742",
+        "MED-5026"
+      ],
+      "retrieval_latency_ms": 18.93,
+      "generation_latency_ms": 3251.91,
+      "total_latency_ms": 3270.84
+    },
+    {
+      "id": "PLAIN-2800",
+      "question": "Prolonged Liver Function Enhancement From Broccoli",
+      "gold_answer": "Cruciferous vegetables like broccoli contain sulforaphane precursors that induce phase 2 liver detoxification enzymes and promote cellular protection against environmental carcinogens.",
+      "predicted_answer": "Insufficient information in the retrieved context to answer the question about prolonged liver function enhancement from broccoli.",
+      "em": 0.0,
+      "f1": 0.1111,
+      "retrieved_docs": [
+        "MED-2068",
+        "MED-2235",
+        "MED-2235",
+        "MED-4454",
+        "MED-5075"
+      ],
+      "retrieval_latency_ms": 19.89,
+      "generation_latency_ms": 3269.86,
+      "total_latency_ms": 3289.76
+    },
+    {
+      "id": "PLAIN-1331",
+      "question": "hearing",
+      "gold_answer": "Sensorineural hearing loss can be exacerbated by vascular disease and oxidative stress, whereas diets rich in antioxidants and carotenoids are associated with preserved auditory function.",
+      "predicted_answer": "There is no information in the provided context about \"hearing\".",
+      "em": 0.0,
+      "f1": 0.1176,
+      "retrieved_docs": [
+        "MED-3626",
+        "MED-3625",
+        "MED-3775",
+        "MED-3034",
+        "MED-1046"
+      ],
+      "retrieval_latency_ms": 14.75,
+      "generation_latency_ms": 2828.7,
+      "total_latency_ms": 2843.45
+    },
+    {
+      "id": "PLAIN-1236",
+      "question": "galactosemia",
+      "gold_answer": "Classic galactosemia is an inherited metabolic disorder caused by deficiency of galactose-1-phosphate uridylyltransferase, managed strictly through lifelong dietary elimination of lactose and galactose.",
+      "predicted_answer": "Insufficient information in the retrieved context to provide a definition or explanation of galactosemia.",
+      "em": 0.0,
+      "f1": 0.1176,
+      "retrieved_docs": [
+        "MED-1341",
+        "MED-2348",
+        "MED-2369",
+        "MED-2355",
+        "MED-2354"
+      ],
+      "retrieval_latency_ms": 16.57,
+      "generation_latency_ms": 3386.18,
+      "total_latency_ms": 3402.74
+    },
+    {
+      "id": "PLAIN-531",
+      "question": "alternative medicine",
+      "gold_answer": "Complementary and alternative medicine modalities frequently lack rigorous randomized controlled trial verification, necessitating critical evaluation of efficacy, safety, and drug interactions.",
+      "predicted_answer": "Alternative medicine includes:\n\n* Herbal therapies (e.g. peppermint oil, Iberogast)\n* Hypnotherapy\n* Cognitive behavior therapy\n* Acupuncture\n* Yoga\n* Homeopathy (although the effectiveness of homeopathy is disputed)\n* Organic foods (which may have higher antioxidant levels)\n* Lifestyle medicine (a structured approach to managing chronic disease through behavioral, motivational, and environmental changes)\n\nNote: The effectiveness of some alternative medicine practices, such as homeopathy, is disputed and not universally accepted.",
+      "em": 0.0,
+      "f1": 0.1235,
+      "retrieved_docs": [
+        "MED-1017",
+        "MED-3758",
+        "MED-1178",
+        "MED-5084",
+        "MED-3113"
+      ],
+      "retrieval_latency_ms": 16.3,
+      "generation_latency_ms": 4855.37,
+      "total_latency_ms": 4871.66
+    },
+    {
+      "id": "PLAIN-175",
+      "question": "Diet and Cellulite",
+      "gold_answer": "Dietary modifications aimed at weight loss and reduction in body fat percentage, combined with physical exercise, produce moderate improvement in the clinical appearance of cellulite.",
+      "predicted_answer": "There is insufficient information in the retrieved context to answer the question about the relationship between diet and cellulite.",
+      "em": 0.0,
+      "f1": 0.15,
+      "retrieved_docs": [
+        "MED-3818",
+        "MED-3801",
+        "MED-835",
+        "MED-3359",
+        "MED-3818"
+      ],
+      "retrieval_latency_ms": 17.98,
+      "generation_latency_ms": 3306.91,
+      "total_latency_ms": 3324.89
+    },
+    {
+      "id": "PLAIN-3271",
+      "question": "Saturated Fat & Cancer Progression",
+      "gold_answer": "High dietary intake of saturated animal fat has been correlated in epidemiological cohorts with increased systemic inflammation and accelerated progression of certain endocrine-related cancers.",
+      "predicted_answer": "Based on the provided context, here are the answers to the question \"Saturated Fat & Cancer Progression\":\n\n1. Is there an association between saturated fat intake and cancer progression?\n\t* Yes, studies suggest that higher intake of saturated fat is associated with increased risk of pancreatic cancer (Source 2 and Source 3) and breast cancer survival (Source 1).\n2. Is there a specific type of cancer that is more strongly associated with saturated fat intake?\n\t* Yes, pancreatic cancer (Source 2 and Source 3) and breast cancer (Source 1) are more strongly associated with saturated fat intake.\n3. Is there a specific source of saturated fat that is more strongly associated with cancer risk?\n\t* Yes, saturated fat from animal food sources, particularly red meat and dairy products, is more strongly associated with increased pancreatic cancer risk (Source 2).\n4. Does a low-fat diet have any effect on cancer progression?\n\t* Yes, a low-fat diet was associated with decreased recurrence of estrogen receptor alpha negative (ER(-)) breast cancer (Source 4).\n5. Is there any evidence that saturated fat intake is associated with cardiovascular disease?\n\t* No, a meta-analysis of prospective cohort studies found no association between saturated fat intake and risk of coronary heart disease, stroke, or cardiovascular disease (Source 5).",
+      "em": 0.0,
+      "f1": 0.0909,
+      "retrieved_docs": [
+        "MED-4450",
+        "MED-4823",
+        "MED-4823",
+        "MED-2434",
+        "MED-1556"
+      ],
+      "retrieval_latency_ms": 15.77,
+      "generation_latency_ms": 8219.86,
+      "total_latency_ms": 8235.63
+    },
+    {
+      "id": "PLAIN-499",
+      "question": "African-American",
+      "gold_answer": "African-American populations exhibit disproportionately higher burdens of cardiovascular disease, prostate cancer, and hypertension, influenced by health disparities and systemic environmental factors.",
+      "predicted_answer": "African-American refers to a racial group.",
+      "em": 0.0,
+      "f1": 0.0769,
+      "retrieved_docs": [
+        "MED-1115",
+        "MED-4346",
+        "MED-1115",
+        "MED-1747",
+        "MED-4346"
+      ],
+      "retrieval_latency_ms": 14.38,
+      "generation_latency_ms": 2886.72,
+      "total_latency_ms": 2901.1
+    },
+    {
+      "id": "PLAIN-3014",
+      "question": "Sometimes the Enzyme Myth Is True",
+      "gold_answer": "While most ingested digestive enzymes are denatured in gastric acid, specific plant enzymes such as bromelain and papain can retain bioactive properties and systemic anti-inflammatory actions.",
+      "predicted_answer": "Insufficient information in the retrieved context to answer the question \"Sometimes the Enzyme Myth Is True\".",
+      "em": 0.0,
+      "f1": 0.0513,
+      "retrieved_docs": [
+        "MED-5332",
+        "MED-1261",
+        "MED-4040",
+        "MED-5333",
+        "MED-4040"
+      ],
+      "retrieval_latency_ms": 17.48,
+      "generation_latency_ms": 3229.02,
+      "total_latency_ms": 3246.5
+    },
+    {
+      "id": "PLAIN-583",
+      "question": "antinutrients",
+      "gold_answer": "Dietary antinutrients like phytates, tannins, and oxalates can decrease mineral bioavailability, but also confer antioxidant and anticancer benefits in varied plant-based diets.",
+      "predicted_answer": "Insufficient information in the retrieved context to provide a definition or explanation of \"antinutrients\".",
+      "em": 0.0,
+      "f1": 0.1176,
+      "retrieved_docs": [
+        "MED-3485",
+        "MED-4393",
+        "MED-3452",
+        "MED-2951",
+        "MED-4689"
+      ],
+      "retrieval_latency_ms": 16.61,
+      "generation_latency_ms": 3229.56,
+      "total_latency_ms": 3246.17
+    },
+    {
+      "id": "PLAIN-782",
+      "question": "Bush administration",
+      "gold_answer": "Federal regulations under the Bush administration regarding environmental contaminants and chemical safety faced scrutiny over scientific advisory procedures and chemical safety guidelines.",
+      "predicted_answer": "Insufficient information in the retrieved context.",
+      "em": 0.0,
+      "f1": 0.0,
+      "retrieved_docs": [
+        "MED-1055",
+        "MED-4959",
+        "MED-1753",
+        "MED-5303",
+        "MED-3892"
+      ],
+      "retrieval_latency_ms": 20.26,
+      "generation_latency_ms": 2810.8,
+      "total_latency_ms": 2831.06
+    },
+    {
+      "id": "PLAIN-1398",
+      "question": "IGF-1",
+      "gold_answer": "Elevated circulating levels of Insulin-Like Growth Factor 1 (IGF-1), often driven by higher animal protein intake, promote cellular proliferation and are associated with increased risk of malignancies.",
+      "predicted_answer": "IGF-1 is a protein that stimulates mitosis and inhibits apoptosis. It has been associated with an increased risk of breast cancer, with a positive association found between circulating IGF-1 concentrations and breast cancer risk. The odds ratio for breast cancer for women in the highest versus the lowest fifth of IGF-1 concentration was 1.28 (95% CI 1.14-1.44; p<0.0001).",
+      "em": 0.0,
+      "f1": 0.2532,
+      "retrieved_docs": [
+        "MED-4223",
+        "MED-4223",
+        "MED-1722",
+        "MED-1719",
+        "MED-1715"
+      ],
+      "retrieval_latency_ms": 17.88,
+      "generation_latency_ms": 4712.09,
+      "total_latency_ms": 4729.98
+    },
+    {
+      "id": "PLAIN-1557",
+      "question": "magnesium",
+      "gold_answer": "Dietary magnesium serves as an essential cofactor in hundreds of enzymatic reactions, regulating muscle contractions, vascular tone, and glycemic control.",
+      "predicted_answer": "According to Source 1, individuals in the highest tertile of magnesium intake had a 34% reduction in mortality risk (HR: 0.66; 95% CI: 0.45, 0.95; P < 0.01).",
+      "em": 0.0,
+      "f1": 0.1364,
+      "retrieved_docs": [
+        "MED-1406",
+        "MED-1406",
+        "MED-3918",
+        "MED-4320",
+        "MED-1447"
+      ],
+      "retrieval_latency_ms": 16.79,
+      "generation_latency_ms": 3922.26,
+      "total_latency_ms": 3939.05
+    },
+    {
+      "id": "PLAIN-133",
+      "question": "Starving Tumors of Their Blood Supply",
+      "gold_answer": "Anti-angiogenic therapies and dietary phytochemicals inhibit vascular endothelial growth factors, suppressing tumor neovascularization and limiting nutrient delivery to solid tumors.",
+      "predicted_answer": "Insufficient information in the retrieved context to answer the question \"Starving Tumors of Their Blood Supply\".",
+      "em": 0.0,
+      "f1": 0.1176,
+      "retrieved_docs": [
+        "MED-2992",
+        "MED-2357",
+        "MED-4484",
+        "MED-1108",
+        "MED-3842"
+      ],
+      "retrieval_latency_ms": 19.08,
+      "generation_latency_ms": 3492.68,
+      "total_latency_ms": 3511.76
+    }
+  ]
+}
