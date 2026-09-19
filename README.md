@@ -69,7 +69,6 @@ Full per-query results, latencies, and edge-case logs are stored in `results/bas
 
 
 ---
-
 ## Member 2 Deliverables: Dense Retrieval + Transformer QA
 
 ### Dense Retrieval
@@ -83,6 +82,17 @@ Full per-query results, latencies, and edge-case logs are stored in `results/bas
 - **Model**: `llama3.1:8b` via local Ollama
 - **Run**: `python llama_qa.py`
 
+---
+
+## Member 3 Deliverables: Evaluation + Application Integration
+
+### Unified Evaluation Pipeline
+- **Streamlit demo**: `streamlit run app.py` (needs Ollama running)
+- **Error analysis**: `python error_analysis.py` → `results/error_analysis_10.md`
+- **Edge-case robustness**: `python edge_case_eval.py` → `results/dense_edge_cases.json`
+- **Unified comparison**: `python final_comparison.py` → `results/final_comparison.json`
+- **Full pipeline orchestrator**: `python run_evaluation.py` (`--skip-llama` if Ollama isn't running) — runs every stage above in dependency order
+
 ### Results Summary (49-query test split, 30 gold-answer QA subset)
 
 | Metric | BM25 | BGE Dense | BGE + DistilBERT | BGE + Llama 3.1 |
@@ -95,13 +105,15 @@ Full per-query results, latencies, and edge-case logs are stored in `results/bas
 | **Exact Match** | 0.00% | – | 0.00% | 0.00% |
 | **Token F1** | 15.11% | – | 7.70% | 15.26% |
 
-> **Note on Exact Match**: EM is 0.00% for every QA system by construction — gold answers are full abstractive sentences, not extractable spans, so no system can match them verbatim. **Token F1** is the meaningful metric. Dense retrieval improves ranking over BM25 across every metric; DistilBERT's F1 is dragged down by the many single-word/title-style questions (e.g. `"eggnog"`, `"salmon"`) that lack the interrogative structure a SQuAD-trained extractive reader needs.
+Full breakdown (including Recall@1/3/5 for every system) is in `results/final_comparison.json`.
 
-### Edge-case robustness (10 hand-written adversarial queries)
+> **Note on Exact Match**: EM is 0.00% for every QA system by construction — gold answers are full abstractive sentences, not extractable spans, so no system can match them verbatim. **Token F1** is the meaningful metric. Dense retrieval improves ranking over BM25 across every retrieval metric; DistilBERT's F1 is dragged down by the many single-word/title-style questions (e.g. `"eggnog"`, `"salmon"`) that lack the interrogative structure a SQuAD-trained extractive reader needs to localize a span.
 
-Dense retrieval + DistilBERT were run against the same 10 edge cases as the BM25 baseline (`results/dense_edge_cases.json`). Two gaps found relative to the classical baseline, which explicitly detects and rejects these inputs:
-- **Empty/whitespace input is not rejected** — the dense pipeline returns a top-5-chunk answer with no guard, whereas BM25 correctly returns "I don't have a question to process."
-- **DistilBERT crashes on unusually long input** with a tokenizer truncation error (1/10 edge cases), where BM25 truncates gracefully.
+### Edge-Case Robustness Analysis (10 hand-written adversarial queries)
+
+Dense retrieval + DistilBERT were run against the same 10 edge cases as the BM25 baseline, for direct comparison (`results/dense_edge_cases.json` vs the `edge_cases` array in `results/baseline_results.json`). Two gaps found relative to the classical baseline, which explicitly detects and rejects these inputs:
+- **Empty/whitespace input is not rejected** by the dense pipeline — it returns a top-5-chunk answer with no guard, whereas BM25 correctly returns *"I don't have a question to process."*
+- **DistilBERT crashes on unusually long input** with a tokenizer truncation error (1 of 10 edge cases), where BM25 truncates gracefully and still returns an answer.
 
 ### Reproducing These Results — Required Run Order
 
@@ -116,15 +128,8 @@ python dense_retrieval.py
 python qa_reader.py
 python llama_qa.py
 python error_analysis.py
+python edge_case_eval.py
 python final_comparison.py
 ```
 
-Or: `python run_evaluation.py` (`--skip-llama` if Ollama isn't running).
-
----
-
-## Member 3 Deliverables: Evaluation + Application Integration
-
-- **Streamlit demo**: `streamlit run app.py` (needs Ollama running)
-- **Error analysis**: `python error_analysis.py` → `results/error_analysis_10.md`
-- **Unified comparison**: `python final_comparison.py` → `results/final_comparison.json`
+Or run everything at once: `python run_evaluation.py` (`--skip-llama` if Ollama isn't running).
