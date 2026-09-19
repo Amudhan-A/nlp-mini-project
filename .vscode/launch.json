@@ -1,0 +1,114 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "RUN ALL (full pipeline)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_evaluation.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": false
+    },
+    {
+      "name": "RUN ALL (no Ollama)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run_evaluation.py",
+      "args": ["--skip-llama"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "1. Prepare data (chunking)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/prepare_data.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "2. Build QA dataset",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/build_qa_dataset.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "3. Baseline: TF-IDF vs BM25",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/baseline.py",
+      "args": ["--compare"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "4. Dense retrieval (builds Chroma index)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/dense_retrieval.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "5. Transformer QA (DistilBERT reader)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/qa_reader.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "6. Llama 3.1 QA (needs Ollama)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/llama_qa.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "7. Error analysis (10 worst cases)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/error_analysis.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "8. Final comparison table",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/final_comparison.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Retrieval diagnostic (10 questions)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/qa_diagnosis.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Ask one question (baseline BM25)",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/baseline.py",
+      "args": ["--ask", "is coconut milk good for you?"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "Streamlit app",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "streamlit",
+      "args": ["run", "${workspaceFolder}/app.py"],
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

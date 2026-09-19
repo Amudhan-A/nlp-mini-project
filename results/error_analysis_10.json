@@ -1,0 +1,352 @@
+[
+  {
+    "case": 1,
+    "question": "Chernobyl",
+    "gold_answer": "The Chernobyl nuclear disaster caused extensive radioactive fallout with radioiodine and radiocesium, leading to increased rates of pediatric thyroid cancer and long-term environmental contamination.",
+    "predicted_answer": "Insufficient information in the retrieved context.",
+    "em": 0.0,
+    "f1": 0.0,
+    "retrieved_evidence": [
+      {
+        "rank": 1,
+        "doc_id": "MED-3622",
+        "text": "Dietary and clastogenic factors in children who immigrated to Israel from regions contaminated by the Chernobyl accident.. The authors evaluated the possible association between dietary history and plasma clastogenic factors in children who immigrated to Israel between 1989 and 1993 from regions contaminated by the Chernobyl accident. The authors compared questionnaire data about demographic variables, dietary histories before and after immigration occurred, and health status with clastogenic factor scores for 162 immigrants. Logistic regression analysis revealed a negative association between clastogenic factor scores and frequency of consumption of fresh vegetables and fruit among children < or = 7 yr of age during the postimmigration period. Intake of eggs and fish by boys who were < or = 7 yr of age prior to immigration was associated positively with clastogenic factor scores. Consumption of fresh vegetables and fruits afforded protection to the immune systems of children who were < or = 7 yr of age."
+      },
+      {
+        "rank": 2,
+        "doc_id": "MED-3635",
+        "text": "Wet deposition of fission-product isotopes to North America from the Fukushima Dai-ichi incident, March 2011.. Using the infrastructure of the National Atmospheric Deposition Program (NADP), numerous measurements of radionuclide wet deposition over North America were made for 167 NADP sites before and after the Fukushima Dai-ichi Nuclear Power Station incident of March 12, 2011. For the period from March 8 through April 5, 2011, wet-only precipitation samples were collected by NADP and analyzed for fission-product isotopes within whole-water and filterable solid samples by the United States Geological Survey using gamma spectrometry. Variable amounts of (131)I, (134)Cs, or (137)Cs were measured at approximately 21% of sampled NADP sites distributed widely across the contiguous United States and Alaska. Calculated 1- to 2-week individual radionuclide deposition fluxes ranged from 0.47 to 5100 Becquerels per square meter during the sampling period. Wet deposition activity was small compared to measured activity already present in U.S. soil. NADP networks responded to this complex disaster, and provided scientifically valid measurements that are comparable and complementary to other networks in North America and Europe."
+      },
+      {
+        "rank": 3,
+        "doc_id": "MED-3632",
+        "text": "An unexpected mortality increase in the United States follows arrival of the radioactive plume from Fukushima: is there a correlation?. The multiple nuclear meltdowns at the Fukushima plants beginning on March 11, 2011, are releasing large amounts of airborne radioactivity that has spread throughout Japan and to other nations; thus, studies of contamination and health hazards are merited. In the United States, Fukushima fallout arrived just six days after the earthquake, tsunami, and meltdowns. Some samples of radioactivity in precipitation, air, water, and milk, taken by the U.S. government, showed levels hundreds of times above normal; however, the small number of samples prohibits any credible analysis of temporal trends and spatial comparisons. U.S. health officials report weekly deaths by age in 122 cities, about 25 to 35 percent of the national total. Deaths rose 4.46 percent from 2010 to 2011 in the 14 weeks after the arrival of Japanese fallout, compared with a 2.34 percent increase in the prior 14 weeks. The number of infant deaths after Fukushima rose 1.80 percent, compared with a previous 8.37 percent decrease. Projecting these figures for the entire United States yields 13,983 total deaths and 822 infant deaths in excess of the expected. These"
+      },
+      {
+        "rank": 4,
+        "doc_id": "MED-3630",
+        "text": "Radioactive fallout in the United States due to the Fukushima nuclear plant accident.. The release of radioactivity into the atmosphere from the damaged Fukushima Daiichi nuclear power plant started on March 12th, 2011. Among the various radionuclides released, iodine -131 ((131)I) and cesium isotopes ((137)Cs and (134)Cs) were transported across the Pacific Ocean and reached the United States on 17-18 March 2011. Consequently, an elevated level of fission products (131)I, (132)I, (132)Te, (134)Cs and (137)Cs were detected in air, water, and milk samples collected across the United States between March 17 and April 4, 2011. The continuous monitoring of activities over a period of 25 days and spatial variations across more than 100 sampling locations in the United States made it possible to characterize the contaminated air masses. For the entire period, the highest detected activity values ranged from less than 1 m Bq m(-3) to 31 m Bq m(-3) for the particulate (131)I, and up to 96 m Bq m(-3) for the gaseous (131)I fraction."
+      },
+      {
+        "rank": 5,
+        "doc_id": "MED-3632",
+        "text": "weeks. The number of infant deaths after Fukushima rose 1.80 percent, compared with a previous 8.37 percent decrease. Projecting these figures for the entire United States yields 13,983 total deaths and 822 infant deaths in excess of the expected. These preliminary data need to be followed up, especially in the light of similar preliminary U.S. mortality findings for the four months after Chernobyl fallout arrived in 1986, which approximated final figures."
+      }
+    ]
+  },
+  {
+    "case": 2,
+    "question": "Bush administration",
+    "gold_answer": "Federal regulations under the Bush administration regarding environmental contaminants and chemical safety faced scrutiny over scientific advisory procedures and chemical safety guidelines.",
+    "predicted_answer": "Insufficient information in the retrieved context.",
+    "em": 0.0,
+    "f1": 0.0,
+    "retrieved_evidence": [
+      {
+        "rank": 1,
+        "doc_id": "MED-1055",
+        "text": "Why the Bush administration and the global sugar industry are determined to demolish the 2004 WHO global strategy on diet, physical activity and he.... OBJECTIVE: To indicate why the world's most powerful nation state and one powerful sector of the food and drink production and manufacturing industry are determined to demolish the 2004 WHO (World Health Organization) global strategy on diet, physical activity and health, and to disassociate it from the 2003 WHO/FAO (Food and Agriculture Organization) expert report on diet, nutrition and the prevention of chronic diseases, which with its background papers is the immediate scientific basis for the strategy. To encourage representatives of nation states at the 2004 WHO World Health Assembly to support the strategy together with the report, so that the strategy is explicit and quantified, and responds to the need expressed by member states at the 2002 World Health Assembly. This is for an effective global strategy to prevent and control chronic diseases whose prevalence is increased by nutrient-poor food low in vegetables and fruits and high in energy-dense fatty, sugary and/or salty foods and drinks and also by physical inactivity. Of these diseases, obesity, diabetes, cardiovascular diseases and cancers of several sites are now"
+      },
+      {
+        "rank": 2,
+        "doc_id": "MED-4959",
+        "text": "highlights the need for continued stringent regulation of puffer fish importation by the U.S. Food and Drug Administration, education of the public regarding the dangers of puffer fish consumption, and raising awareness among medical providers of the diagnosis and management of foodborne toxin ingestions and the need for reporting to public health agencies."
+      },
+      {
+        "rank": 3,
+        "doc_id": "MED-1753",
+        "text": "The current state of GMO governance: are we ready for GM animals?. Given the history of GMO conflict and debate, the GM animal future is dependent on the response of the regulatory landscape and its associated range of interest groups at national, regional and international levels. Focusing on the EU and the USA, this article examines the likely form of that multi-level response, the increased role of cultural values, the contribution of new and existing interest groups and the consequent implications for the commercialization of both green and red GM animal biotechnology. Copyright   2012. Published by Elsevier Inc."
+      },
+      {
+        "rank": 4,
+        "doc_id": "MED-5303",
+        "text": "The state of US health, 1990-2010: burden of diseases, injuries, and risk factors.. IMPORTANCE: Understanding the major health problems in the United States and how they are changing over time is critical for informing national health policy. OBJECTIVES: To measure the burden of diseases, injuries, and leading risk factors in the United States from 1990 to 2010 and to compare these measurements with those of the 34 countries in the Organisation for Economic Co-operation and Development (OECD) countries. DESIGN: We used the systematic analysis of descriptive epidemiology of 291 diseases and injuries, 1160 sequelae of these diseases and injuries, and 67 risk factors or clusters of risk factors from 1990 to 2010 for 187 countries developed for the Global Burden of Disease 2010 Study to describe the health status of the United States and to compare US health outcomes with those of 34 OECD countries. Years of life lost due to premature mortality (YLLs) were computed by multiplying the number of deaths at each age by a reference life expectancy at that age. Years lived with disability (YLDs) were calculated by multiplying prevalence (based on systematic reviews) by the disability weight (based on population-based surveys) for each sequela; disability in"
+      },
+      {
+        "rank": 5,
+        "doc_id": "MED-3892",
+        "text": "Application of Bayesian Techniques to Model the Burden of Human Salmonellosis Attributable to U.S. Food Commodities at the Point of Processing: Adaptation of a Danish Model. Mathematical models that estimate the proportion of foodborne illnesses attributable to food commodities at specific points in the food chain may be useful to risk managers and policy makers to formulate public health goals, prioritize interventions, and document the effectiveness of mitigations aimed at reducing illness. Using human surveillance data on laboratory-confirmed Salmonella infections from the Centers for Disease Control and Prevention and Salmonella testing data from U.S. Department of Agriculture Food Safety and Inspection Service's regulatory programs, we developed a point-of-processing foodborne illness attribution model by adapting the Hald Salmonella Bayesian source attribution model. Key model outputs include estimates of the relative proportions of domestically acquired sporadic human Salmonella infections resulting from contamination of raw meat, poultry, and egg products processed in the United States from 1998 through 2003. The current model estimates the relative contribution of chicken (48%), ground beef (28%), turkey (17%), egg products (6%), intact beef (1%), and pork (<1%) across 109 Salmonella serotypes found in food commodities at point of processing. While interpretation of the attribution estimates is constrained"
+      }
+    ]
+  },
+  {
+    "case": 3,
+    "question": "muscle health",
+    "gold_answer": "Maintaining muscle mass and muscular health requires adequate essential amino acid intake, particularly branched-chain amino acids like leucine, combined with progressive resistance training.",
+    "predicted_answer": "Based on the provided context, here are some answers related to muscle health:\n\nQ: What is the effect of statin therapy on muscle health?\nA: Statin therapy can cause ultrastructural damage in skeletal muscle, including breakdown of the T-tubular system and subsarcolemmal rupture, even in asymptomatic patients.\n\nQ: Can statin therapy lead to muscle weakness and falls risk in older adults?\nA: Yes, statin therapy has been associated with decreased leg strength and muscle quality, and increased falls risk in older adults.\n\nQ: Is there a relationship between statin-associated myopathy and skeletal muscle damage?\nA: Yes, muscle injury was observed in 25 (of 44) patients with myopathy and in 1 patient without myopathy, and was associated with upregulation of ryanodine receptor 3.\n\nQ: What is the effect of an alkaline diet on muscle health in older adults?\nA: An alkaline diet, characterized by high potassium excretion and high fruit and vegetable content, is associated with increased lean tissue mass in older adults.\n\nQ: Can statin therapy exacerbate age-related muscle function declines?\nA: Yes, statin therapy has been shown to predict increased falls risk scores and decreased leg strength in older adults.",
+    "em": 0.0,
+    "f1": 0.0495,
+    "retrieved_evidence": [
+      {
+        "rank": 1,
+        "doc_id": "MED-4830",
+        "text": "Statin therapy induces ultrastructural damage in skeletal muscle in patients without myalgia.. Muscle pain and weakness are frequent complaints in patients receiving 3-hydroxymethylglutaryl coenzymeA (HMG CoA) reductase inhibitors (statins). Many patients with myalgia have creatine kinase levels that are either normal or only marginally elevated, and no obvious structural defects have been reported in patients with myalgia only. To investigate further the mechanism that mediates statin-induced skeletal muscle damage, skeletal muscle biopsies from statin-treated and non-statin-treated patients were examined using both electron microscopy and biochemical approaches. The present paper reports clear evidence of skeletal muscle damage in statin-treated patients, despite their being asymptomatic. Though the degree of overall damage is slight, it has a characteristic pattern that includes breakdown of the T-tubular system and subsarcolemmal rupture. These characteristic structural abnormalities observed in the statin-treated patients were reproduced by extraction of cholesterol from skeletal muscle fibres in vitro. These findings support the hypothesis that statin-induced cholesterol lowering per se contributes to myocyte damage and suggest further that it is the specific lipid/protein organization of the skeletal muscle cell itself that renders it particularly vulnerable. Copyright (c) 2006 Pathological Society of Great Britain and Ireland. Published by John Wiley & Sons, Ltd."
+      },
+      {
+        "rank": 2,
+        "doc_id": "MED-4829",
+        "text": "Statin therapy, muscle function and falls risk in community-dwelling older adults.. BACKGROUND: Statin therapy can cause myopathy, however it is unclear whether this exacerbates age-related muscle function declines. AIM: To describe differences between statin users and non-users in muscle mass, muscle function and falls risk in a group of community-dwelling older adults. DESIGN: A prospective, population-based cohort study with a mean follow-up of 2.6 years. METHODS: Total 774 older adults [48% female; mean (standard deviation) age = 62 (7) years] were examined at baseline and follow-up. Differences in percentage appendicular lean mass (%ALM), leg strength, leg muscle quality (LMQ; specific force) and falls risk were compared for statin users and non-users. RESULTS: There were 147 (19%) statin users at baseline and 179 (23%) at follow-up. Longitudinal analyses revealed statin use at baseline predicted increased falls risk scores over 2.6 years (0.14, 95% CI 0.01 to 0.27) and a trend towards increased %ALM (0.45%, 95% CI -0.01 to 0.92). Statin users at both time points demonstrated decreased leg strength (-5.02 kg, 95% CI -9.65 to -0.40) and LMQ (-0.30 kg/kg, 95% CI -0.59 to -0.01), and trended towards increased falls risk (0.13, 95% CI -0.01 to 0.26) compared to controls. Finally,"
+      },
+      {
+        "rank": 3,
+        "doc_id": "MED-4828",
+        "text": "Association between statin-associated myopathy and skeletal muscle damage. Background Many patients taking statins often complain of muscle pain and weakness. The extent to which muscle pain reflects muscle injury is unknown. Methods We obtained biopsy samples from the vastus lateralis muscle of 83 patients. Of the 44 patients with clinically diagnosed statin-associated myopathy, 29 were currently taking a statin, and 15 had discontinued statin therapy before the biopsy (minimal duration of discontinuation 3 weeks). We also included 19 patients who were taking statins and had no myopathy, and 20 patients who had never taken statins and had no myopathy. We classified the muscles as injured if 2% or more of the muscle fibres in a biopsy sample showed damage. Using reverse transcriptase polymerase chain reaction, we evaluated the expression levels of candidate genes potentially related to myocyte injury. Results Muscle injury was observed in 25 (of 44) patients with myopathy and in 1 patient without myopathy. Only 1 patient with structural injury had a circulating level of creatine phosphokinase that was elevated more than 1950 U/L (10 the upper limit of normal). Expression of ryanodine receptor 3 was significantly upregulated in patients with biopsy evidence of structural damage (1.7, standard"
+      },
+      {
+        "rank": 4,
+        "doc_id": "MED-3220",
+        "text": "Alkaline diets favor lean tissue mass in older adults. Background Maintaining muscle mass while aging is important to prevent falls and fractures. Metabolic acidosis promotes muscle wasting, and the net acid load from diets that are rich in net acid producing protein and cereal grains relative to their content of net alkali producing fruit and vegetables may therefore contribute to a reduction in lean tissue mass in older adults. Objective We aimed to determine whether there was an association of 24-h urinary potassium and an index of fruit and vegetable content of the diet with the percentage lean body mass (%LBM) or change in %LBM in older subjects. Design Subjects were 384 men and women 65 y old who participated in a 3-y trial comparing calcium and vitamin D with placebo. Potassium was measured in 24-h urine collections at baseline. The %LBM, defined as total body nonfat, nonbone tissue weight weight 100, was measured by using dual-energy X-ray absorptiometry at baseline and at 3 y. Physical activity, height, and weight were assessed at baseline and at 3 y. Results At baseline, the mean urinary potassium excretion was 67.0 21.1 mmol/d. Urinary potassium (mmol/d) was significantly positively associated with %LBM at"
+      },
+      {
+        "rank": 5,
+        "doc_id": "MED-3235",
+        "text": "Alkaline diets favor lean tissue mass in older adults. Background Maintaining muscle mass while aging is important to prevent falls and fractures. Metabolic acidosis promotes muscle wasting, and the net acid load from diets that are rich in net acid producing protein and cereal grains relative to their content of net alkali producing fruit and vegetables may therefore contribute to a reduction in lean tissue mass in older adults. Objective We aimed to determine whether there was an association of 24-h urinary potassium and an index of fruit and vegetable content of the diet with the percentage lean body mass (%LBM) or change in %LBM in older subjects. Design Subjects were 384 men and women 65 y old who participated in a 3-y trial comparing calcium and vitamin D with placebo. Potassium was measured in 24-h urine collections at baseline. The %LBM, defined as total body nonfat, nonbone tissue weight weight 100, was measured by using dual-energy X-ray absorptiometry at baseline and at 3 y. Physical activity, height, and weight were assessed at baseline and at 3 y. Results At baseline, the mean urinary potassium excretion was 67.0 21.1 mmol/d. Urinary potassium (mmol/d) was significantly positively associated with %LBM at"
+      }
+    ]
+  },
+  {
+    "case": 4,
+    "question": "Sometimes the Enzyme Myth Is True",
+    "gold_answer": "While most ingested digestive enzymes are denatured in gastric acid, specific plant enzymes such as bromelain and papain can retain bioactive properties and systemic anti-inflammatory actions.",
+    "predicted_answer": "Insufficient information in the retrieved context to answer the question \"Sometimes the Enzyme Myth Is True\".",
+    "em": 0.0,
+    "f1": 0.0513,
+    "retrieved_evidence": [
+      {
+        "rank": 1,
+        "doc_id": "MED-5332",
+        "text": "Quantification of butyryl CoA:acetate CoA-transferase genes reveals different butyrate production capacity in individuals according to diet and age.. The gastrointestinal microbiota produces short-chain fatty acids, especially butyrate, which affect colonic health, immune function and epigenetic regulation. To assess the effects of nutrition and aging on the production of butyrate, the butyryl-CoA:acetate CoA-transferase gene and population shifts of Clostridium clusters lV and XlVa, the main butyrate producers, were analysed. Faecal samples of young healthy omnivores (24 2.5 years), vegetarians (26 5 years) and elderly (86 8 years) omnivores were evaluated. Diet and lifestyle were assessed in questionnaire-based interviews. The elderly had significantly fewer copies of the butyryl-CoA:acetate CoA-transferase gene than young omnivores (P=0.014), while vegetarians showed the highest number of copies (P=0.048). The thermal denaturation of the butyryl-CoA:acetate CoA-transferase gene variant melting curve related to Roseburia/Eubacterium rectale spp. was significantly more variable in the vegetarians than in the elderly. The Clostridium cluster XIVa was more abundant in vegetarians (P=0.049) and in omnivores (P<0.01) than in the elderly group. Gastrointestinal microbiota of the elderly is characterized by decreased butyrate production capacity, reflecting increased risk of degenerative diseases. These results suggest that the butyryl-CoA:acetate CoA-transferase gene is a valuable marker for gastrointestinal microbiota"
+      },
+      {
+        "rank": 2,
+        "doc_id": "MED-1261",
+        "text": "Catalytic doses of fructose may benefit glycaemic control without harming cardiometabolic risk factors: a small meta-analysis of randomised controlled feeding trials. Contrary to concerns that fructose may have adverse metabolic effects, there is evidence that small, catalytic doses ( 10 g/meal) of fructose decrease the glycaemic response to high-glycaemic index meals in human subjects. To assess the longer-term effects of catalytic doses of fructose, we undertook a meta-analysis of controlled feeding trials. We searched MEDLINE, EMBASE, CINAHL and the Cochrane Library. Analyses included all controlled feeding trials 7 d featuring catalytic fructose doses ( 36 g/d) in isoenergetic exchange for other carbohydrates. Data were pooled by the generic inverse variance method using random-effects models and expressed as mean differences (MD) with 95 % CI. Heterogeneity was assessed by the Q statistic and quantified by I2. The Heyland Methodological Quality Score assessed study quality. A total of six feeding trials (n 118) met the eligibility criteria. Catalytic doses of fructose significantly reduced HbA1c (MD 0 40, 95 % CI 0 72, 0 08) and fasting glucose (MD 0 25, 95 % CI 0 44, 0 07). This benefit was seen in the absence of adverse effects on fasting insulin, body weight,"
+      },
+      {
+        "rank": 3,
+        "doc_id": "MED-4040",
+        "text": "17 and 30%, respectively, and urinary mutagenicity (with metabolic activation) was still elevated compared with period 1. This prolonged response of amine metabolism to the cruciferous vegetable diet, shown especially with PhIP, suggests that enzyme systems other than CYP1A2 are involved and affected by a cruciferous vegetable diet."
+      },
+      {
+        "rank": 4,
+        "doc_id": "MED-5333",
+        "text": "Vegetarian diet affects genes of oxidative metabolism and collagen synthesis.. BACKGROUND/AIM: A vegetarian diet is known to prevent a series of diseases but may influence the balance of carbohydrate and fat metabolism as well as collagen synthesis. This study compares expression patterns of relevant genes in oral mucosa of omnivores and vegetarians. METHODS: Quantitative reverse transcriptase polymerase chain reaction was applied for analysis of mRNA levels from carnitine transporter OCTN2, hepatic CPT1A and nonhepatic CPT1B isoforms of carnitine palmitoyltransferase and collagen (CCOL2A1) in oral mucosa. RESULTS: Compared with volunteers with traditional eating habits, carbohydrate consumption was significantly higher (+22%) in vegetarians. This was associated with a significant stimulation of CPT1A (+50%) and OCTN2 (+10%) and a lowered collagen synthesis (-10%). CONCLUSION: These novel findings provide further insight into the association of a changed fat metabolism and reduced collagen synthesis in vegetarians, which could also play a role in the aging process. Copyright 2008 S. Karger AG, Basel."
+      },
+      {
+        "rank": 5,
+        "doc_id": "MED-4040",
+        "text": "activity was apparent from changes in the kinetics of caffeine metabolism. Excretion of MeIQx and PhIP in urine at the end of this period of the study was reduced by 23 and 21%, respectively, compared with period 1. This reduction in excretion is probably due to an increase in amine metabolism that might be expected given the observed increase in CYP1A2 activity, since this enzyme has been shown to be primarily responsible for the oxidative activation of MeIQx and PhIP in man. In period 2, urinary mutagenicity was increased relative to period 1 by 52 and 64% in the absence and presence, respectively, of a human liver microsomal activation system, yet no evidence was found of PhIP adduction to lymphocyte DNA, a potential biomarker of the activation process. After another 12 days without cruciferous vegetables (period 3 of the study), the kinetics of caffeine metabolism had returned to original values but excretion of MeIQx and PhIP was still reduced by 17 and 30%, respectively, and urinary mutagenicity (with metabolic activation) was still elevated compared with period 1. This prolonged response of amine metabolism to the cruciferous vegetable diet, shown especially with PhIP, suggests that enzyme systems other than CYP1A2 are"
+      }
+    ]
+  },
+  {
+    "case": 5,
+    "question": "chlorophyll",
+    "gold_answer": "Chlorophyll and chlorophyllin derivatives have shown anticarcinogenic and antimutagenic effects by binding tightly to planar carcinogens like aflatoxins to reduce gastrointestinal bioavailability.",
+    "predicted_answer": "What is chlorophyll?\n\nInsufficient information in the retrieved context.",
+    "em": 0.0,
+    "f1": 0.0667,
+    "retrieved_evidence": [
+      {
+        "rank": 1,
+        "doc_id": "MED-4195",
+        "text": "Effects of chlorophyll and chlorophyllin on low-dose aflatoxin B(1) pharmacokinetics in human volunteers.. Chlorophyll (Chla) and chlorophyllin (CHL) were shown previously to reduce carcinogen bioavailability, biomarker damage, and tumorigenicity in trout and rats. These findings were partially extended to humans, where CHL reduced excretion of aflatoxin B(1) (AFB(1))-DNA repair products in Chinese unavoidably exposed to dietary AFB(1). However, neither AFB(1) pharmacokinetics nor Chla effects were examined. We conducted an unblinded crossover study to establish AFB(1) pharmacokinetic parameters among four human volunteers, and to explore possible effects of CHL or Chla cotreatment in three of those volunteers. For protocol 1, fasted subjects received an Institutional Review Board-approved dose of 14C-AFB(1) (30 ng, 5 nCi) by capsule with 100 mL water, followed by normal eating and drinking after 2 hours. Blood and cumulative urine samples were collected over 72 hours, and 14C- AFB(1) equivalents were determined by accelerator mass spectrometry. Protocols 2 and 3 were similar except capsules also contained 150 mg of purified Chla or CHL, respectively. Protocols were repeated thrice for each volunteer. The study revealed rapid human AFB(1) uptake (plasma k(a), 5.05 + or - 1.10 h(-1); T(max), 1.0 hour) and urinary elimination (95% complete by 24 hours) kinetics."
+      },
+      {
+        "rank": 2,
+        "doc_id": "MED-2899",
+        "text": "Iris color and macular pigment optical density.. The present study was designed to assess the relationship between iris color and macular pigment optical density. Both melanin and carotenoids (responsible for iris color and macular pigment composition, respectively) appear to protect the retina through similar mechanisms and higher concentrations may reduce the incidence of retinal degenerations. To evaluate this relationship, 95 subjects were examined and the following variables were measured: iris color; macular pigment optical density (MP); plasma concentrations of lutein and zeaxanthin and beta-carotene; dietary intake of lutein and zeaxanthin and beta-carotene; and total fat intake. Iris color was determined by self assessment and classified as blue or gray (group I), green or hazel (group II) or brown or black (group III). MP density was measured psychophysically by measuring foveal and parafoveal sensitivities to lights of 460 and 550 nm, using the method of heterochromatic flicker photometry. Plasma carotenoid concentrations were measured using reverse-phase high-performance liquid chromatography. Dietary intake was determined by a detailed food-frequency questionnaire. Despite similarities in diet and in blood concentrations of carotenoids, significant differences in macular pigment density (P < 0.02) were found for different colored irises (group I, n = 38, MP = 0.25; group"
+      },
+      {
+        "rank": 3,
+        "doc_id": "MED-860",
+        "text": "4.9 to 87.4 and 3.0 to 39.4 mg/100 g FW, respectively. Among the 25 microgreens assayed, red cabbage, cilantro, garnet amaranth, and green daikon radish had the highest concentrations of ascorbic acids, carotenoids, phylloquinone, and tocopherols, respectively. In comparison with nutritional concentrations in mature leaves (USDA National Nutrient Database), the microgreen cotyledon leaves possessed higher nutritional densities. The phytonutrient data may provide a scientific basis for evaluating nutritional values of microgreens and contribute to food composition database. These data also may be used as a reference for health agencies' recommendations and consumers' choices of fresh vegetables."
+      },
+      {
+        "rank": 4,
+        "doc_id": "MED-3359",
+        "text": "You Are What You Eat: Within-Subject Increases in Fruit and Vegetable Consumption Confer Beneficial Skin-Color Changes. Background Fruit and vegetable consumption and ingestion of carotenoids have been found to be associated with human skin-color (yellowness) in a recent cross-sectional study. This carotenoid-based coloration contributes beneficially to the appearance of health in humans and is held to be a sexually selected cue of condition in other species. Methodology and Principal Findings Here we investigate the effects of fruit and vegetable consumption on skin-color longitudinally to determine the magnitude and duration of diet change required to change skin-color perceptibly. Diet and skin-color were recorded at baseline and after three and six weeks, in a group of 35 individuals who were without makeup, self-tanning agents and/or recent intensive UV exposure. Six-week changes in fruit and vegetable consumption were significantly correlated with changes in skin redness and yellowness over this period, and diet-linked skin reflectance changes were significantly associated with the spectral absorption of carotenoids and not melanin. We also used psychophysical methods to investigate the minimum color change required to confer perceptibly healthier and more attractive skin-coloration. Modest dietary changes are required to enhance apparent health (2.91 portions per day) and attractiveness (3.30"
+      },
+      {
+        "rank": 5,
+        "doc_id": "MED-2895",
+        "text": "Dietary modification of human macular pigment density.. PURPOSE: The retinal carotenoids lutein (L) and zeaxanthin (Z) that form the macular pigment (MP) may help to prevent neovascular age-related macular degeneration. The purpose of this study was to determine whether MP density in the retina could be raised by increasing dietary intake of L and Z from foods. METHODS: Macular pigment was measured psychophysically for 13 subjects. Serum concentrations of L, Z, and beta-carotene were measured by high-performance liquid chromatography. Eleven subjects modified their usual daily diets by adding 60 g of spinach (10.8 mg L, 0.3 mg Z, 5 mg beta-carotene) and ten also added 150 g of corn (0.3 mg Z, 0.4 mg L); two other subjects were given only corn. Dietary modification lasted up to 15 weeks. RESULTS: For the subjects fed spinach or spinach and corn, three types of responses to dietary modification were identified: Eight \"retinal responders\" had increases in serum L (mean, 33%; SD, 22%) and in MP density (mean, 19%; SD, 11%); two \"retinal nonresponders\" showed substantial increases in serum L (mean, 31%) but not in MP density (mean, -11%); one \"serum and retinal nonresponder\" showed no changes in serum L, Z, or beta-carotene"
+      }
+    ]
+  },
+  {
+    "case": 6,
+    "question": "eggnog",
+    "gold_answer": "Spices used in holiday eggnog like nutmeg contain allylbenzene compounds which have documented central nervous system neuromodulatory and toxicological effects upon excessive ingestion.",
+    "predicted_answer": "Insufficient information in the retrieved context.",
+    "em": 0.0,
+    "f1": 0.0714,
+    "retrieved_evidence": [
+      {
+        "rank": 1,
+        "doc_id": "MED-2884",
+        "text": "A 12-wk egg intervention increases serum zeaxanthin and macular pigment optical density in women.. Two carotenoids found in egg yolk, lutein and zeaxanthin, accumulate in the macular retina where they may reduce photostress. Increases in serum lutein and zeaxanthin were observed in previous egg interventions, but no study measured macular carotenoids. The objective of this project was to determine whether increased consumption of eggs would increase retinal lutein and zeaxanthin, or macular pigment. Twenty-four females, between 24 and 59 y, were assigned to a pill treatment (PILL) or 1 of 2 egg treatments for 12 wk. Individuals in the PILL treatment consumed 1 sugar-filled capsule/d. Individuals in the egg treatments consumed 6 eggs/wk, containing either 331 microg (EGG 1) or 964 microg (EGG 2) of lutein and zeaxanthin/yolk. Serum cholesterol, serum carotenoids, and macular pigment OD (MPOD) were measured at baseline and after 4, 8, and 12 wk of intervention. Serum cholesterol concentrations did not change in either egg treatment group, but total cholesterol (P = 0.04) and triglycerides (P = 0.02) increased in the PILL group. Serum zeaxanthin, but not serum lutein, increased in both the EGG 1 (P = 0.04) and EGG 2 (P = 0.01) groups. Likewise,"
+      },
+      {
+        "rank": 2,
+        "doc_id": "MED-2884",
+        "text": "group, but total cholesterol (P = 0.04) and triglycerides (P = 0.02) increased in the PILL group. Serum zeaxanthin, but not serum lutein, increased in both the EGG 1 (P = 0.04) and EGG 2 (P = 0.01) groups. Likewise, MPOD increased in both the EGG 1 (P = 0.001) and EGG 2 (P = 0.049) groups. Although the aggregate concentration of carotenoid in 1 egg yolk may be modest relative to other sources, such as spinach, their bioavailability to the retina appears to be high. Increasing egg consumption to 6 eggs/wk may be an effective method to increase MPOD."
+      },
+      {
+        "rank": 3,
+        "doc_id": "MED-1956",
+        "text": "Elevated TCDD in chicken eggs and farm-raised catfish fed a diet with ball clay from a Southern United States mine.. The U.S. Food and Drug Administration (FDA) terminated the use of ball clay from a mine in Mississippi as an additive in animal feed after discovering nanogram per gram concentrations of 2,3,7,8-tetrachlorodibenzo-p-dioxin (2,3,7,8-TCDD). The FDA collected chicken eggs and farm-raised catfish in affected areas and throughout the remaining continental United States to assess levels of 2,3,7,8-TCDD. A new method using quadrupole ion storage tandem-in-time mass spectrometry (QISTMS) measured the 2,3,7,8-TCDD levels in 42 catfish fillet composites, 3 Tilapia fillet composites, 46 chicken egg samples, and 6 chicken feeds. Six catfish composites and 20 egg samples had 2,3,7,8-TCDD concentrations significantly above 1.0 pg/g wet weight of fillet or whole egg. Farm-raised catfish not exposed to feed containing ball clay had a mean 2,3,7,8-TCDD concentration of 0.12 pg/g. The TCDD isomer pattern in ball clay differed from the TCDD isomer pattern in a fly ash sample and from the \"chick edema factor\" TCDD pattern in a sample of reference toxic fat used as a feed ingredient in the 1950s."
+      },
+      {
+        "rank": 4,
+        "doc_id": "MED-2975",
+        "text": "Egg consumption and the risk of diabetes in adults, Jiangsu, China.. BACKGROUND: Although egg consumption has been associated with elevated plasma levels of cholesterol and triglyceride and with risk of cardiovascular disease in some populations, epidemiologic studies on egg consumption and the risk of diabetes are extremely sparse, particularly in the Chinese population. METHOD: Data from a household survey in the year 2002 among 2849 adults aged 20 y from a nationally representative sample in Jiangsu Province, China, were used. Dietary information was assessed by a validated food frequency questionnaire and 3 d weighed food records. Fasting blood specimens were collected. RESULTS: After the adjustment for age, total calorie intake, education, smoking, family history of diabetes, and sedentary activity, egg consumption was significantly and positively associated with diabetes risk, particularly in women. The odds ratios (OR) (95% CI) of diabetes associated with egg consumption <2/wk, 2-6/wk, and 1/d in the total sample were 1.00, 1.75, 2.28 (1.14-4.54), respectively (P for trend 0.029). Corresponding ORs (95% CI) in women were 1.00, 1.66, and 3.01 (1.12, 8.12), respectively (P for trend 0.022). Additional adjustment of body mass index attenuated the association, but it remained significant. There was a similar, however, not statistically"
+      },
+      {
+        "rank": 5,
+        "doc_id": "MED-4324",
+        "text": "Egg yolk consumption and carotid plaque.. BACKGROUND: Increasingly the potential harm from high cholesterol intake, and specifically from egg yolks, is considered insignificant. We therefore assessed total plaque area (TPA) in patients attending Canadian vascular prevention clinics to determine if the atherosclerosis burden, as a marker of arterial damage, was related to egg intake. To provide perspective on the magnitude of the effect, we also analysed the effect of smoking (pack-years). METHODS: Consecutive patients attending vascular prevention clinics at University Hospital had baseline measurement of TPA by duplex ultrasound, and filled out questionnaires regarding their lifestyle and medications, including pack-years of smoking, and the number of egg yolks consumed per week times the number of years consumed (egg-yolk years). RESULTS: Data were available in 1262 patients; mean (SD) age was 61.5 (14.8) years; 47% were women. Carotid plaque area increased linearly with age after age 40, but increased exponentially with pack-years of smoking and with egg-yolk years. Plaque area in patients consuming <2 eggs per week (n = 388) was 125 129 mm(2), versus 132 142 mm(2) in those consuming 3 or more eggs per week (n = 603); (p < 0.0001 after adjustment for age). In multiple regression, egg-yolk"
+      }
+    ]
+  },
+  {
+    "case": 7,
+    "question": "African-American",
+    "gold_answer": "African-American populations exhibit disproportionately higher burdens of cardiovascular disease, prostate cancer, and hypertension, influenced by health disparities and systemic environmental factors.",
+    "predicted_answer": "African-American refers to a racial group.",
+    "em": 0.0,
+    "f1": 0.0769,
+    "retrieved_evidence": [
+      {
+        "rank": 1,
+        "doc_id": "MED-1115",
+        "text": "Disparities in the prevalence, pathogenesis and progression of monoclonal gammopathy of undetermined significance and multiple myeloma between blacks and whites. There is marked racial disparity in the incidence of monoclonal gammopathy of undetermined significance (MGUS) and multiple myeloma, with a two to threefold increased risk in blacks compared with whites. The increased risk has been seen both in Africans and African Americans. Similarly, an increased risk of monoclonal gammopathies in blacks compared with whites has been noted after adjusting for socioeconomic and other risk factors, suggesting a genetic predisposition. The higher risk of multiple myeloma in blacks is likely a result of the higher prevalence of the premalignant MGUS stage; there are no data to suggest that blacks have a higher progression rate of MGUS to myeloma. Studies are emerging that suggest the baseline cytogenetic characteristics, and progression may differ by race. In contrast, to the increased risk noted in blacks, studies suggest that the risk may be lower in certain racial and ethnic groups, notably persons from Japan and Mexico. We review the literature on racial disparity in the prevalence, pathogenesis and progression of MGUS and multiple myeloma between blacks and whites. We also discuss future directions for research"
+      },
+      {
+        "rank": 2,
+        "doc_id": "MED-4346",
+        "text": "Results Blacks showed higher levels of CRP and IL-6 than Whites. Controlling for socio-demographic and health variables attenuated the ethnic difference in CRP while IL-6 levels remained higher in Blacks than in Whites ( =.118; 95% confidence interval=.014 .206; P=.025). Ethnic differences in IL-10 and TNF- were not found. Vegetarian diet was associated with lower CRP levels while exercise frequency was associated with higher IL-10 levels. Conclusion Higher susceptibility of Blacks to inflammatory diseases may reflect higher IL-6, which could be important in assessing health disparities among Blacks and Whites. Vegetarian diet and exercise may counteract effects of disparities."
+      },
+      {
+        "rank": 3,
+        "doc_id": "MED-1115",
+        "text": "certain racial and ethnic groups, notably persons from Japan and Mexico. We review the literature on racial disparity in the prevalence, pathogenesis and progression of MGUS and multiple myeloma between blacks and whites. We also discuss future directions for research that could inform management of these conditions and positively influence patient outcomes."
+      },
+      {
+        "rank": 4,
+        "doc_id": "MED-1747",
+        "text": "Is there a legacy of the U.S. Public Health Syphilis Study at Tuskegee in HIV/AIDS-related beliefs among heterosexual African-Americans and Latinos?. Knowledge of the US Public Health Syphilis Study at Tuskegee is sometime cited as a principal reason for the relatively low participation rates seen among racial/ethnic minorities, particularly African Americans, in biomedical research. However, only a few studies have actually explored this possibility. We use data from a random digit dial telephone survey of 510 African-Americans and 253 Latinos, age 18 to 45 years, to investigate associations between knowledge of the USPHS Syphilis Study at Tuskegee and endorsement of HIV/AIDS conspiracy theories. All respondents were drawn from an area of low-income, predominantly race-segregated inner city households in Los Angeles. Results indicate that African Americans were significantly more likely than Latinos to endorse HIV/AIDS conspiracy theories. Further, African Americans were more aware of the USPHS Syphilis Study at Tuskegee (SST). Nevertheless, 72% of African Americans and 94% of Latinos reported that they have never heard of the Syphilis Study at Tuskegee. Further, while awareness of the Syphilis Study at Tuskegee was a significant predictor of endorsing HIV/AIDS conspiracy theories, results suggest that other factors may be more important in accounting"
+      },
+      {
+        "rank": 5,
+        "doc_id": "MED-4346",
+        "text": "Determinants of Inflammatory Markers in a Bi-ethnic Population. Background Inflammation is a common pathophysiological pathway for a number of chronic diseases, and is strongly influenced by sociodemographic factors and lifestyle. Less is known about factors that may influence the inflammatory response in individuals of distinct ethnic backgrounds. Therefore, this study examined the relationship between ethnicity and blood levels of inflammatory markers in a sample of non-smoking church-goers. Methods In a cross-sectional investigation, 508 men and women (>35 years old, 62% White, 38% Black) participated in the Biopsy-chosocial Religion and Health substudy of the Adventist Health Study 2. The contribution of socioeconomic status (education level and difficulty meeting expenses for basic needs) and health covariates (exercise, vegetarian or other type of diet, body mass index, and presence of inflammatory conditions) toward serum levels of C-reactive protein (CRP), interleukin-6 (IL-6), and tumor necrosis factor-alpha (TNF- ) was assessed with linear regression models. Levels of interleukin-10 (IL-10), an anti-inflammatory marker, were also assessed. Results Blacks showed higher levels of CRP and IL-6 than Whites. Controlling for socio-demographic and health variables attenuated the ethnic difference in CRP while IL-6 levels remained higher in Blacks than in Whites ( =.118; 95% confidence interval=.014 .206; P=.025)."
+      }
+    ]
+  },
+  {
+    "case": 8,
+    "question": "How Chemically Contaminated Are We?",
+    "gold_answer": "Biomonitoring studies show extensive human contamination with persistent organic pollutants, endocrine disruptors, and heavy metals bioaccumulating through industrial food chains.",
+    "predicted_answer": "Insufficient information in the retrieved context to provide a comprehensive answer to the question \"How Chemically Contaminated Are We?\" However, based on the provided sources, it can be inferred that:\n\n* Exposure to toxicants such as mercury, arsenic, lead, and dioxin is widespread, particularly among children.\n* Food consumption is a significant source of exposure to these toxicants, with fish being a major contributor to mercury exposure.\n* The body burden of polybrominated diphenyl ethers (PBDEs) is associated with dietary habits, particularly the consumption of dairy products and meat.\n* Low-level exposure to biopersistent pollutants in the diet may pose a risk to people worldwide.\n\nTo provide a more comprehensive answer, further information on the scope and extent of chemical contamination would be necessary.",
+    "em": 0.0,
+    "f1": 0.0781,
+    "retrieved_evidence": [
+      {
+        "rank": 1,
+        "doc_id": "MED-4739",
+        "text": "Nowhere to hide: Chemical toxicants and the unborn child.. Contemporary reproductive aged women and their offspring are facing an unprecedented onslaught of toxicant exposures from myriad sources in their day-to-day life. Public health recommendations regarding optimal diet and nutrition in pregnancy must incorporate several considerations including safety of available foodstuffs, cultural practices and lifestyle issues. Gestational consumption of contaminated seafood remains a potential source of toxicant exposure, including mercury, for the developing child. Health care professionals responsible for the care of women and their developing children need to become apprised of: a) risks associated with toxicant bioaccumulation in pregnancy; b) ongoing information emerging in the important field of reproductive toxicology; and c) strategies within the clinical setting to facilitate nutritional sufficiency and precautionary avoidance of adverse exposure among young women."
+      },
+      {
+        "rank": 2,
+        "doc_id": "MED-4733",
+        "text": "Mercury in human hair as an indicator of the fish consumption.. OBJECTIVES: Mercury and most of its compounds are extremely toxic and should be handled with care. It can be inhaled and absorbed through the skin and mucous membranes. The most toxic forms of mercury are its organic compounds such as dimethylmercury and methylmercury. Fish have a natural tendency to accumulate mercury. Methylmercury is produced by microbial methylation of inorganic mercury in water sediment then it infiltrates the food chain and it consequently accumulates in fish. Fish are the main source of methylmercury in human food. Mercury is transferred into a hair; and this can be than used to monitor the long-term exposure to mercury. The content of mercury in hair depends on the frequency of fish consumption. The aim of our study was to compare mercury content in the hair of children that had various amounts of fish consumption (increased or reduced). DESIGN: Total mercury content in hair was determined by direct method of cold vapors using an AMA 245 analyzer. A total of 174 hair samples from the children (9-17 years old) were analyzed. In this study, the following localities were compared: Neratovice (n=42), Jesen ky (n=44), Prague"
+      },
+      {
+        "rank": 3,
+        "doc_id": "MED-2494",
+        "text": "Cancer and non-cancer health effects from food contaminant exposures for children and adults in California: a risk assessment. Background In the absence of current cumulative dietary exposure assessments, this analysis was conducted to estimate exposure to multiple dietary contaminants for children, who are more vulnerable to toxic exposure than adults. Methods We estimated exposure to multiple food contaminants based on dietary data from preschool-age children (2 4 years, n=207), school-age children (5 7 years, n=157), parents of young children (n=446), and older adults (n=149). We compared exposure estimates for eleven toxic compounds (acrylamide, arsenic, lead, mercury, chlorpyrifos, permethrin, endosulfan, dieldrin, chlordane, DDE, and dioxin) based on self-reported food frequency data by age group. To determine if cancer and non-cancer benchmark levels were exceeded, chemical levels in food were derived from publicly available databases including the Total Diet Study. Results Cancer benchmark levels were exceeded by all children (100%) for arsenic, dieldrin, DDE, and dioxins. Non-cancer benchmarks were exceeded by >95% of preschool-age children for acrylamide and by 10% of preschool-age children for mercury. Preschool-age children had significantly higher estimated intakes of 6 of 11 compounds compared to school-age children (p<0.0001 to p=0.02). Based on self-reported dietary data, the greatest exposure"
+      },
+      {
+        "rank": 4,
+        "doc_id": "MED-995",
+        "text": "Human exposure to PBDEs: associations of PBDE body burdens with food consumption and house dust concentrations.. This study was designed to determine the body burden of polybrominated diphenyl ethers (PBDEs) among first-time mothers in the Greater Boston, Massachusetts area and to explore key routes of exposure. We collected breast milk samples from 46 first-time mothers, 2-8 weeks after birth. We also sampled house dust from the homes of a subset of participants by vacuuming commonly used areas. Data on personal characteristics, diet, home furniture, and electrical devices were gathered from each participant using a questionnaire. Breast milk and dust samples were analyzed for PBDEs using gas chromatography/ mass spectrometry. PBDE concentrations were log-normally distributed in breast milk and dust. We found statistically significant, positive associations between PBDE concentrations in breast milk and house dust (r = 0.76, p = 0.003, not including BDE-209), as well as with reported dietary habits, particularly the consumption of dairy products (r = 0.41, p = 0.005) and meat (r = 0.37, p = 0.01). Due to low detection rates, it was not possible to draw conclusions about the association between BDE-209 in milk and dust. Our results support the hypothesis that the indoor environment"
+      },
+      {
+        "rank": 5,
+        "doc_id": "MED-3590",
+        "text": "decreased known hazardous workplace exposures, but millions of workers in less affluent countries are at risk from reproductive toxicants. New data show that environmental low-level exposure to biopersistent pollutants in the diet may pose a risk to people in all parts of the world. For other toxicants the evidence is only suggestive and further evaluation is needed before conclusions can be drawn. Whether compounds as phthalates, bisphenol A and boron that are present in a large number of industrial and consumer products entails a risk remains to be established. The same applies to psychosocial stressors and use of mobile phones. Finally, there are data indicating a particular vulnerability of the fetal testis to toxicants for instance maternal tobacco smoking. Time has come where male reproductive toxicity should be addressed form entirely new angles including exposures very early in life."
+      }
+    ]
+  },
+  {
+    "case": 9,
+    "question": "Saturated Fat & Cancer Progression",
+    "gold_answer": "High dietary intake of saturated animal fat has been correlated in epidemiological cohorts with increased systemic inflammation and accelerated progression of certain endocrine-related cancers.",
+    "predicted_answer": "Based on the provided context, here are the answers to the question \"Saturated Fat & Cancer Progression\":\n\n1. Is there an association between saturated fat intake and cancer progression?\n\t* Yes, studies suggest that higher intake of saturated fat is associated with increased risk of pancreatic cancer (Source 2 and Source 3) and breast cancer survival (Source 1).\n2. Is there a specific type of cancer that is more strongly associated with saturated fat intake?\n\t* Yes, pancreatic cancer (Source 2 and Source 3) and breast cancer (Source 1) are more strongly associated with saturated fat intake.\n3. Is there a specific source of saturated fat that is more strongly associated with cancer risk?\n\t* Yes, saturated fat from animal food sources, particularly red meat and dairy products, is more strongly associated with increased pancreatic cancer risk (Source 2).\n4. Does a low-fat diet have any effect on cancer progression?\n\t* Yes, a low-fat diet was associated with decreased recurrence of estrogen receptor alpha negative (ER(-)) breast cancer (Source 4).\n5. Is there any evidence that saturated fat intake is associated with cardiovascular disease?\n\t* No, a meta-analysis of prospective cohort studies found no association between saturated fat intake and risk of coronary heart disease, stroke, or cardiovascular disease (Source 5).",
+    "em": 0.0,
+    "f1": 0.0909,
+    "retrieved_evidence": [
+      {
+        "rank": 1,
+        "doc_id": "MED-4450",
+        "text": "body mass index, and physical activity), women in the highest compared to lowest quintile of intake of saturated fat and trans fat had a significantly higher risk of dying from any cause (HR = 1.41, 95% CI = 1.06 to 1.87, P-trend = 0.03) for saturated fat; (HR = 1.78, 95% CI = 1.35 to 2.32, P-trend = 0.01) for trans fat intake. Associations were similar, though did not achieve statistical significance, for breast cancer survival. This study suggests that lower intake of saturated and trans fat in the post-diagnosis diet is associated with improved survival after breast cancer diagnosis."
+      },
+      {
+        "rank": 2,
+        "doc_id": "MED-4823",
+        "text": "intakes of total fat (highest vs lowest quintile, 46.8 vs 33.2 cases per 100 000 person-years, HR = 1.23, 95% CI = 1.03 to 1.46; Ptrend = .03), saturated fat (51.5 vs 33.1 cases per 100 000 person-years, HR = 1.36, 95% CI = 1.14 to 1.62; Ptrend < .001), and monounsaturated fat (46.2 vs 32.9 cases per 100 000 person-years, HR = 1.22, 95% CI = 1.02 to 1.46; Ptrend = .05) but not polyunsaturated fat. The associations were strongest for saturated fat from animal food sources (52.0 vs 32.2 cases per 100 000 person-years, HR = 1.43, 95% CI = 1.20 to 1.70; Ptrend < .001); specifically, intakes from red meat and dairy products were both statistically significantly associated with increased pancreatic cancer risk (HR = 1.27 and 1.19, respectively). Conclusion In this large prospective cohort with a wide range of intakes, dietary fat of animal origin was associated with increased pancreatic cancer risk."
+      },
+      {
+        "rank": 3,
+        "doc_id": "MED-4823",
+        "text": "Dietary Fatty Acids and Pancreatic Cancer in the NIH-AARP Diet and Health Study. Background Previous research relating dietary fat, a modifiable risk factor, to pancreatic cancer has been inconclusive. Methods We prospectively analyzed the association between intakes of fat, fat subtypes, and fat food sources and exocrine pancreatic cancer in the National Institutes of Health AARP Diet and Health Study, a US cohort of 308 736 men and 216 737 women who completed a 124-item food frequency questionnaire in 1995 1996. Hazard ratios (HRs) and 95% confidence intervals (CIs) were calculated using Cox proportional hazards regression models, with adjustment for energy intake, smoking history, body mass index, and diabetes. Statistical tests were two-sided. Results Over an average follow-up of 6.3 years, 865 men and 472 women were diagnosed with exocrine pancreatic cancer (45.0 and 34.5 cases per 100 000 person-years, respectively). After multivariable adjustment and combination of data for men and women, pancreatic cancer risk was directly related to the intakes of total fat (highest vs lowest quintile, 46.8 vs 33.2 cases per 100 000 person-years, HR = 1.23, 95% CI = 1.03 to 1.46; Ptrend = .03), saturated fat (51.5 vs 33.1 cases per 100 000 person-years, HR ="
+      },
+      {
+        "rank": 4,
+        "doc_id": "MED-2434",
+        "text": "High ACAT1 expression in estrogen receptor negative basal-like breast cancer cells is associated with LDL-induced proliferation.. The specific role of dietary fat in breast cancer progression is unclear, although a low-fat diet was associated with decreased recurrence of estrogen receptor alpha negative (ER(-)) breast cancer. ER(-) basal-like MDA-MB-231 and MDA-MB-436 breast cancer cell lines contained a greater number of cytoplasmic lipid droplets compared to luminal ER(+) MCF-7 cells. Therefore, we studied lipid storage functions in these cells. Both triacylglycerol and cholesteryl ester (CE) concentrations were higher in the ER(-) cells, but the ability to synthesize CE distinguished the two types of breast cancer cells. Higher baseline, oleic acid- and LDL-stimulated CE concentrations were found in ER(-) compared to ER(+) cells. The differences corresponded to greater mRNA and protein levels of acyl-CoA:cholesterol acyltransferase 1 (ACAT1), higher ACAT activity, higher caveolin-1 protein levels, greater LDL uptake, and lower de novo cholesterol synthesis in ER(-) cells. Human LDL stimulated proliferation of ER(-) MDA-MB-231 cells, but had little effect on proliferation of ER(+) MCF-7 cells. The functional significance of these findings was demonstrated by the observation that the ACAT inhibitor CP-113,818 reduced proliferation of breast cancer cells, and specifically reduced LDL-induced proliferation of ER(-)"
+      },
+      {
+        "rank": 5,
+        "doc_id": "MED-1556",
+        "text": "Meta-analysis of prospective cohort studies evaluating the association of saturated fat with cardiovascular disease. Background: A reduction in dietary saturated fat has generally been thought to improve cardiovascular health. Objective: The objective of this meta-analysis was to summarize the evidence related to the association of dietary saturated fat with risk of coronary heart disease (CHD), stroke, and cardiovascular disease (CVD; CHD inclusive of stroke) in prospective epidemiologic studies. Design: Twenty-one studies identified by searching MEDLINE and EMBASE databases and secondary referencing qualified for inclusion in this study. A random-effects model was used to derive composite relative risk estimates for CHD, stroke, and CVD. Results: During 5 23 y of follow-up of 347,747 subjects, 11,006 developed CHD or stroke. Intake of saturated fat was not associated with an increased risk of CHD, stroke, or CVD. The pooled relative risk estimates that compared extreme quantiles of saturated fat intake were 1.07 (95% CI: 0.96, 1.19; P = 0.22) for CHD, 0.81 (95% CI: 0.62, 1.05; P = 0.11) for stroke, and 1.00 (95% CI: 0.89, 1.11; P = 0.95) for CVD. Consideration of age, sex, and study quality did not change the results. Conclusions: A meta-analysis of prospective epidemiologic studies showed that"
+      }
+    ]
+  },
+  {
+    "case": 10,
+    "question": "Diabetics Should Take Their Pulses",
+    "gold_answer": "Consuming dietary pulses such as lentils, chickpeas, and beans significantly improves glycemic control and reduces cardiovascular risk factors in patients with type 2 diabetes.",
+    "predicted_answer": "Insufficient information in the retrieved context to answer the question \"Diabetics Should Take Their Pulses\".",
+    "em": 0.0,
+    "f1": 0.1081,
+    "retrieved_evidence": [
+      {
+        "rank": 1,
+        "doc_id": "MED-2148",
+        "text": "Regular consumption of pulses for 8 weeks reduces metabolic syndrome risk factors in overweight and obese adults.. Pulses are low in energy density, supporting their inclusion in the diet for the management of risk factors of the metabolic syndrome (MetSyn). The aim of the present study was to describe the effects of frequent consumption (five cups/week over 8 weeks) of pulses (yellow peas, chickpeas, navy beans and lentils), compared with counselling to reduce energy intake by 2093 kJ/d (500 kcal/d), on risk factors of the MetSyn in two groups (nineteen and twenty-one subjects, respectively) of overweight or obese (mean BMI 32 8 kg/m2) adults. Body weight, waist circumference, blood pressure, fasting blood parameters and 24 h food intakes were measured at weeks 1, 4 and 8. Blood glucose, insulin, C-peptide, glucagon-like peptide-1 (GLP-1) and ghrelin were measured after a 75 g oral glucose load at weeks 1 and 8. At week 8, both groups reported reductions in energy intake, waist circumference, systolic blood pressure, glycosylated Hb (HbA1c) and glucose AUC and homeostasis model of insulin resistance (HOMA-IR) following the glucose load (P < 0 05). However, HDL, fasting C-peptide and insulin AUC responses were dependent on diet (P < 0"
+      },
+      {
+        "rank": 2,
+        "doc_id": "MED-2145",
+        "text": "Effect of non-oil-seed pulses on glycaemic control: a systematic review and meta-analysis of randomised controlled experimental trials in people wi.... AIMS/HYPOTHESIS: Dietary non-oil-seed pulses (chickpeas, beans, peas, lentils, etc.) are a good source of slowly digestible carbohydrate, fibre and vegetable protein and a valuable means of lowering the glycaemic-index (GI) of the diet. To assess the evidence that dietary pulses may benefit glycaemic control, we conducted a systematic review and meta-analysis of randomised controlled experimental trials investigating the effect of pulses, alone or as part of low-GI or high-fibre diets, on markers of glycaemic control in people with and without diabetes. METHODS: We searched MEDLINE, EMBASE, CINAHL, and the Cochrane Library for relevant controlled trials of >or=7 days. Two independent reviewers (A. Esfahani and J. M. W. Wong) extracted information on study design, participants, treatments and outcomes. Data were pooled using the generic inverse variance method and expressed as standardised mean differences (SMD) with 95% CIs. Heterogeneity was assessed by chi (2) and quantified by I (2). Meta-regression models identified independent predictors of effects. RESULTS: A total of 41 trials (39 reports) were included. Pulses alone (11 trials) lowered fasting blood glucose (FBG) (-0.82, 95% CI -1.36 to -0.27) and"
+      },
+      {
+        "rank": 3,
+        "doc_id": "MED-2145",
+        "text": "chi (2) and quantified by I (2). Meta-regression models identified independent predictors of effects. RESULTS: A total of 41 trials (39 reports) were included. Pulses alone (11 trials) lowered fasting blood glucose (FBG) (-0.82, 95% CI -1.36 to -0.27) and insulin (-0.49, 95% CI -0.93 to -0.04). Pulses in low-GI diets (19 trials) lowered glycosylated blood proteins (GP), measured as HbA(1c) or fructosamine (-0.28, 95% CI -0.42 to -0.14). Finally, pulses in high-fibre diets (11 trials) lowered FBG (-0.32, 95% CI -0.49 to -0.15) and GP (-0.27, 95% CI -0.45 to -0.09). Inter-study heterogeneity was high and unexplained for most outcomes, with benefits modified or predicted by diabetes status, pulse type, dose, physical form, duration of follow-up, study quality, macronutrient profile of background diets, feeding control and design. CONCLUSIONS/INTERPRETATION: Pooled analyses demonstrated that pulses, alone or in low-GI or high-fibre diets, improve markers of longer term glycaemic control in humans, with the extent of the improvements subject to significant inter-study heterogeneity. There is a need for further large, well-designed trials."
+      },
+      {
+        "rank": 4,
+        "doc_id": "MED-3583",
+        "text": "First and second meal effects of pulses on blood glucose, appetite, and food intake at a later meal.. Pulses are low-glycemic appetite-suppressing foods, but it is not known whether these properties persist after being consumed as part of a meal and after a second meal. The objective of this study was to determine the effects of a fixed-size pulse meal on appetite and blood glucose (BG) before and after an ad libitum test meal (pizza) and on food intake (FI) at the test meal. Males (n = 25; 21.3 0.5 years; 21.6 0.3 kg m(-2)) randomly consumed 4 isocaloric meals: chickpea; lentil; yellow split pea; and macaroni and cheese (control). Commercially available canned pulses provided 250 kcal, and were consumed with macaroni and tomato sauce. FI was measured at a pizza meal 260 min after consumption of the isocaloric meal. BG and appetite were measured from 0 to 340 min. The lentil and yellow pea, but not chickpea, treatments led to lower appetite ratings during the 260 min prepizza meal period, and less FI at the pizza meal, compared with macaroni and cheese (p < 0.05). All pulse treatments lowered BG immediately following consumption (at 20 min) (p < 0.05),"
+      },
+      {
+        "rank": 5,
+        "doc_id": "MED-1999",
+        "text": "Strategies for preventing type 2 diabetes: an update for clinicians. Diabetes is a major and growing public health challenge which threatens to overwhelm medical services in the future. Type 2 diabetes confers significant morbidity and mortality, most notably with target organ damage to the eyes, kidneys, nerves and heart. The magnitude of cardiovascular risk associated with diabetes is best illustrated by its position as a coronary heart disease risk equivalent. Complications related to neuropathy are also vast, often working in concert with vascular abnormalities and resulting in serious clinical consequences such as foot ulceration. Increased understanding of the natural history of this disorder has generated the potential to intervene and halt pathological progression before overt disease ensues, after which point management becomes increasingly challenging. The concept of prediabetes as a formal diagnosis has begun to be translated from the research setting to clinical practice, but with continually updated guidelines, varied nomenclature, emerging pharmacotherapies and an ever-changing evidence base, clinicians may be left uncertain of best practice in identifying and managing patients at the prediabetic stage. This review aims to summarize the epidemiological data, new concepts in disease pathogenesis and guideline recommendations in addition to lifestyle, pharmacological and surgical therapies targeted"
+      }
+    ]
+  }
+]
