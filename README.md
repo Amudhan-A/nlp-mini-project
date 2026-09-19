@@ -15,10 +15,10 @@
 ---
 
 ### 2. Evaluation Dataset (`data/qa_dataset.json`)
-- **Total Records**: 335 queries
-  - **Train**: 227 queries (70%)
-  - **Validation**: 49 queries (15%)
-  - **Test**: 49 queries (15%)
+- **Total Records**: 333 queries
+  - **Train**: 226 queries (~68%)
+  - **Validation**: 48 queries (~14%)
+  - **Test**: 59 queries (~18%)
   - **Edge Cases**: 10 hand-written adversarial queries (empty, whitespace, out-of-domain, code-mixed, OOV, ambiguous, very long, unseen information, non-linguistic)
 - **Reproducibility**: Fixed random seed (`seed = 42`)
 - **Ground-Truth QA Annotations**: 30 test-split questions annotated with factual ground-truth answer strings derived directly from relevant PubMed abstracts.
@@ -65,3 +65,66 @@ Full per-query results, latencies, and edge-case logs are stored in `results/bas
   # returns: {"answer": str, "confidence": float, "sources": list, "status": str}
   ```
 - **Error analysis data**: Check `results/baseline_results.json` (`per_question` array and `edge_cases` array) for pre-computed failure cases.
+
+
+
+---
+
+## Member 2 Deliverables: Dense Retrieval + Transformer QA
+
+### Dense Retrieval
+- **Model**: `BAAI/bge-small-en-v1.5`, cosine similarity, ChromaDB vector store at `data/vector_db/` (gitignored — rebuild locally with `python dense_retrieval.py`)
+
+### Transformer Reader QA
+- **Model**: `distilbert-base-cased-distilled-squad`, extractive span answering over top-5 dense-retrieved chunks
+- **Run**: `python qa_reader.py`
+
+### Generative QA (Llama 3.1 via Ollama)
+- **Model**: `llama3.1:8b` via local Ollama
+- **Run**: `python llama_qa.py`
+
+### Results Summary (49-query test split, 30 gold-answer QA subset)
+
+| Metric | BM25 | BGE Dense | BGE + DistilBERT | BGE + Llama 3.1 |
+| :--- | :--- | :--- | :--- | :--- |
+| **Recall@1** | 40.82% | 42.86% | – | – |
+| **Recall@5** | 61.22% | 65.31% | – | – |
+| **Recall@10** | 61.22% | 67.35% | – | – |
+| **MRR@10** | 0.4932 | 0.5264 | – | – |
+| **nDCG@10** | 0.2622 | 0.2871 | – | – |
+| **Exact Match** | 0.00% | – | 0.00% | 0.00% |
+| **Token F1** | 15.11% | – | 7.70% | 15.26% |
+
+> **Note on Exact Match**: EM is 0.00% for every QA system by construction — gold answers are full abstractive sentences, not extractable spans, so no system can match them verbatim. **Token F1** is the meaningful metric. Dense retrieval improves ranking over BM25 across every metric; DistilBERT's F1 is dragged down by the many single-word/title-style questions (e.g. `"eggnog"`, `"salmon"`) that lack the interrogative structure a SQuAD-trained extractive reader needs.
+
+### Edge-case robustness (10 hand-written adversarial queries)
+
+Dense retrieval + DistilBERT were run against the same 10 edge cases as the BM25 baseline (`results/dense_edge_cases.json`). Two gaps found relative to the classical baseline, which explicitly detects and rejects these inputs:
+- **Empty/whitespace input is not rejected** — the dense pipeline returns a top-5-chunk answer with no guard, whereas BM25 correctly returns "I don't have a question to process."
+- **DistilBERT crashes on unusually long input** with a tokenizer truncation error (1/10 edge cases), where BM25 truncates gracefully.
+
+### Reproducing These Results — Required Run Order
+
+`data/vector_db/` is not committed. Run in order:
+
+```bash
+pip install -r requirements.txt
+python prepare_data.py
+python build_qa_dataset.py
+python baseline.py --compare
+python dense_retrieval.py
+python qa_reader.py
+python llama_qa.py
+python error_analysis.py
+python final_comparison.py
+```
+
+Or: `python run_evaluation.py` (`--skip-llama` if Ollama isn't running).
+
+---
+
+## Member 3 Deliverables: Evaluation + Application Integration
+
+- **Streamlit demo**: `streamlit run app.py` (needs Ollama running)
+- **Error analysis**: `python error_analysis.py` → `results/error_analysis_10.md`
+- **Unified comparison**: `python final_comparison.py` → `results/final_comparison.json`

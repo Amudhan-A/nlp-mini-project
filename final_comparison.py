@@ -50,6 +50,9 @@ def main():
 
     rows.append({
         "system": "BM25 baseline",
+        "recall_at_1": metric(bm25, "recall@1", "recall_at_1"),
+        "recall_at_3": metric(bm25, "recall@3", "recall_at_3"),
+        "recall_at_5": metric(bm25, "recall@5", "recall_at_5"),
         "recall_at_10": metric(
             bm25,
             "recall@10",
@@ -85,6 +88,9 @@ def main():
 
     rows.append({
         "system": "BGE dense retrieval",
+        "recall_at_1": metric(dense, "recall@1", "recall_at_1"),
+        "recall_at_3": metric(dense, "recall@3", "recall_at_3"),
+        "recall_at_5": metric(dense, "recall@5", "recall_at_5"),
         "recall_at_10": metric(
             dense,
             "recall@10",
@@ -127,6 +133,7 @@ def main():
         "f1": metric(distilbert, "f1"),
         "latency_ms": metric(
             distilbert,
+            "reader_latency_ms_mean",
             "latency_ms_mean",
             "mean_latency_ms",
             "latency_ms"

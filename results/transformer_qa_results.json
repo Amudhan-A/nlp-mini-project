@@ -5,7 +5,7 @@
   "n_questions": 30,
   "exact_match": 0.0,
   "f1": 0.07700691202934015,
-  "reader_latency_ms_mean": 292.0331966665496,
+  "reader_latency_ms_mean": 1898.182700003963,
   "results": [
     {
       "question": "eggnog",
@@ -13,8 +13,8 @@
       "predicted_answer": "Carotid plaque area increased linearly with age after age 40, but increased exponentially with pack-years of smoking and with egg-yolk years",
       "exact_match": 0,
       "f1": 0.04545454545454545,
-      "confidence": 9.648948783834382e-05,
-      "reader_latency_ms": 322.511599981226,
+      "confidence": 9.648902778610328e-05,
+      "reader_latency_ms": 2303.3004999742843,
       "source": {
         "doc_id": "MED-4324",
         "chunk_id": "MED-4324_0"
@@ -26,8 +26,8 @@
       "predicted_answer": "algal-oil DHA capsules and cooked salmon appear to be bioequivalent",
       "exact_match": 0,
       "f1": 0.15,
-      "confidence": 0.003110426346719654,
-      "reader_latency_ms": 287.5419000047259,
+      "confidence": 0.0031103945579796476,
+      "reader_latency_ms": 1732.1640000445768,
       "source": {
         "doc_id": "MED-4936",
         "chunk_id": "MED-4936_0"
@@ -39,8 +39,8 @@
       "predicted_answer": "Metabolic acidosis promotes muscle wasting",
       "exact_match": 0,
       "f1": 0.07142857142857142,
-      "confidence": 0.0002077780845147014,
-      "reader_latency_ms": 327.6950000145007,
+      "confidence": 0.0002077762024644395,
+      "reader_latency_ms": 2845.2170999953523,
       "source": {
         "doc_id": "MED-3220",
         "chunk_id": "MED-3220_0"
@@ -52,8 +52,8 @@
       "predicted_answer": "growth inhibitory effects of black raspberries on premalignant and malignant human oral cells may reside in specific components that target aberrant signaling pathways regulating cell cycle progression",
       "exact_match": 0,
       "f1": 0.24489795918367346,
-      "confidence": 0.000685987636947499,
-      "reader_latency_ms": 229.6683999884408,
+      "confidence": 0.0006859840412768523,
+      "reader_latency_ms": 1900.203600001987,
       "source": {
         "doc_id": "MED-3720",
         "chunk_id": "MED-3720_2"
@@ -66,7 +66,7 @@
       "exact_match": 0,
       "f1": 0.05714285714285714,
       "confidence": 4.5397868702434395e-05,
-      "reader_latency_ms": 242.01560000074096,
+      "reader_latency_ms": 1474.0635000052862,
       "source": {
         "doc_id": "MED-4372",
         "chunk_id": "MED-4372_0"
@@ -78,8 +78,8 @@
       "predicted_answer": "Pulses are low-glycemic appetite-suppressing foods",
       "exact_match": 0,
       "f1": 0.06896551724137931,
-      "confidence": 0.019039859179066042,
-      "reader_latency_ms": 346.3368999946397,
+      "confidence": 0.019039946013258736,
+      "reader_latency_ms": 4417.1418999903835,
       "source": {
         "doc_id": "MED-3583",
         "chunk_id": "MED-3583_0"
@@ -91,8 +91,8 @@
       "predicted_answer": "Chemical toxicants and the unborn child",
       "exact_match": 0,
       "f1": 0.08000000000000002,
-      "confidence": 0.417733406981116,
-      "reader_latency_ms": 289.49350002221763,
+      "confidence": 0.4177325806084948,
+      "reader_latency_ms": 1618.7029000138864,
       "source": {
         "doc_id": "MED-4739",
         "chunk_id": "MED-4739_0"
@@ -101,14 +101,14 @@
     {
       "question": "Splenda",
       "gold_answer": "Splenda (sucralose) is an artificial non-caloric sweetener whose biological effects on gut microbiota and insulin sensitivity continue to be evaluated in clinical and toxicological studies.",
-      "predicted_answer": "Anisakis simplex-sensitized patients",
+      "predicted_answer": "dibenzofurans",
       "exact_match": 0,
       "f1": 0.0,
-      "confidence": 0.0004494918146607312,
-      "reader_latency_ms": 303.4940999932587,
+      "confidence": 0.07316364465368919,
+      "reader_latency_ms": 2280.5580000276677,
       "source": {
-        "doc_id": "MED-2345",
-        "chunk_id": "MED-2345_0"
+        "doc_id": "MED-4437",
+        "chunk_id": "MED-4437_0"
       }
     },
     {
@@ -117,8 +117,8 @@
       "predicted_answer": "Coconut flour is a good source of both soluble and insoluble dietary fiber",
       "exact_match": 0,
       "f1": 0.15789473684210525,
-      "confidence": 0.9995034264290492,
-      "reader_latency_ms": 316.58849999075755,
+      "confidence": 0.9995034322273605,
+      "reader_latency_ms": 2059.5942999934778,
       "source": {
         "doc_id": "MED-5012",
         "chunk_id": "MED-5012_1"
@@ -130,8 +130,8 @@
       "predicted_answer": "fracture risk",
       "exact_match": 0,
       "f1": 0.0,
-      "confidence": 0.18220509200418514,
-      "reader_latency_ms": 224.1132000053767,
+      "confidence": 0.18220835041735678,
+      "reader_latency_ms": 1704.1807000059634,
       "source": {
         "doc_id": "MED-5145",
         "chunk_id": "MED-5145_1"
@@ -143,8 +143,8 @@
       "predicted_answer": "increased worldwide",
       "exact_match": 0,
       "f1": 0.0,
-      "confidence": 0.6593525526164409,
-      "reader_latency_ms": 310.13730002450757,
+      "confidence": 0.6593546209985914,
+      "reader_latency_ms": 2100.674000044819,
       "source": {
         "doc_id": "MED-1674",
         "chunk_id": "MED-1674_0"
@@ -156,8 +156,8 @@
       "predicted_answer": "four months after Chernobyl fallout arrived in 1986",
       "exact_match": 0,
       "f1": 0.12903225806451613,
-      "confidence": 0.0011384270335528198,
-      "reader_latency_ms": 241.44119999255054,
+      "confidence": 0.0011384151046361442,
+      "reader_latency_ms": 1469.3312000017613,
       "source": {
         "doc_id": "MED-3632",
         "chunk_id": "MED-3632_1"
@@ -169,8 +169,8 @@
       "predicted_answer": "Mortality in poultry workers was compared with that in the US general population",
       "exact_match": 0,
       "f1": 0.2702702702702703,
-      "confidence": 0.0013286166853441431,
-      "reader_latency_ms": 328.51570000639185,
+      "confidence": 0.0013286185834217401,
+      "reader_latency_ms": 2405.82419995917,
       "source": {
         "doc_id": "MED-4819",
         "chunk_id": "MED-4819_0"
@@ -182,8 +182,8 @@
       "predicted_answer": "You Eat",
       "exact_match": 0,
       "f1": 0.0,
-      "confidence": 0.6435538171451635,
-      "reader_latency_ms": 308.2390000054147,
+      "confidence": 0.6435579873525085,
+      "reader_latency_ms": 1936.9959000032395,
       "source": {
         "doc_id": "MED-3359",
         "chunk_id": "MED-3359_0"
@@ -195,8 +195,8 @@
       "predicted_answer": "vitamin C",
       "exact_match": 0,
       "f1": 0.08695652173913042,
-      "confidence": 0.0002446404227113643,
-      "reader_latency_ms": 400.3290999971796,
+      "confidence": 0.00024160011161720497,
+      "reader_latency_ms": 2227.6196999591775,
       "source": {
         "doc_id": "MED-1447",
         "chunk_id": "MED-1447_1"
@@ -208,8 +208,8 @@
       "predicted_answer": "A systematic screening of total antioxidants in dietary plants",
       "exact_match": 0,
       "f1": 0.0,
-      "confidence": 0.00012155420680690624,
-      "reader_latency_ms": 279.3400000082329,
+      "confidence": 0.000121554148852403,
+      "reader_latency_ms": 1803.7052000290714,
       "source": {
         "doc_id": "MED-5083",
         "chunk_id": "MED-5083_0"
@@ -221,8 +221,8 @@
       "predicted_answer": "Dietary intake of berries and flavonoids in relation to cognitive decline",
       "exact_match": 0,
       "f1": 0.19999999999999998,
-      "confidence": 0.00014377348646665082,
-      "reader_latency_ms": 297.2996000025887,
+      "confidence": 0.0001437732465534566,
+      "reader_latency_ms": 1625.216999964323,
       "source": {
         "doc_id": "MED-2665",
         "chunk_id": "MED-2665_0"
@@ -234,8 +234,8 @@
       "predicted_answer": "The aim of this study was to determine the bioavailability and kinetics of the supposed anticarcinogen sulforaphane",
       "exact_match": 0,
       "f1": 0.11428571428571427,
-      "confidence": 0.0003022762327882817,
-      "reader_latency_ms": 330.8275000017602,
+      "confidence": 0.0003022743595854639,
+      "reader_latency_ms": 1979.368100001011,
       "source": {
         "doc_id": "MED-4454",
         "chunk_id": "MED-4454_0"
@@ -247,8 +247,8 @@
       "predicted_answer": "4482",
       "exact_match": 0,
       "f1": 0.0,
-      "confidence": 0.9584831177873746,
-      "reader_latency_ms": 199.70840000314638,
+      "confidence": 0.9584820551804668,
+      "reader_latency_ms": 962.7269000047818,
       "source": {
         "doc_id": "MED-3034",
         "chunk_id": "MED-3034_1"
@@ -260,8 +260,8 @@
       "predicted_answer": "SUMMARY",
       "exact_match": 0,
       "f1": 0.0,
-      "confidence": 0.00013245009920181443,
-      "reader_latency_ms": 338.3765000035055,
+      "confidence": 0.00013244990975565867,
+      "reader_latency_ms": 1901.221300009638,
       "source": {
         "doc_id": "MED-1341",
         "chunk_id": "MED-1341_0"
@@ -273,8 +273,8 @@
       "predicted_answer": "conventional",
       "exact_match": 0,
       "f1": 0.0,
-      "confidence": 0.018294304572613062,
-      "reader_latency_ms": 259.02850000420585,
+      "confidence": 0.0187489480933541,
+      "reader_latency_ms": 1398.7099000369199,
       "source": {
         "doc_id": "MED-1178",
         "chunk_id": "MED-1178_0"
@@ -286,8 +286,8 @@
       "predicted_answer": "You Are What You Eat",
       "exact_match": 0,
       "f1": 0.0,
-      "confidence": 0.8949592797270991,
-      "reader_latency_ms": 301.545399997849,
+      "confidence": 0.8949587067919947,
+      "reader_latency_ms": 1620.2447999967262,
       "source": {
         "doc_id": "MED-3359",
         "chunk_id": "MED-3359_0"
@@ -299,8 +299,8 @@
       "predicted_answer": "intakes from red meat and dairy products were both statistically significantly associated with increased pancreatic cancer risk",
       "exact_match": 0,
       "f1": 0.14634146341463414,
-      "confidence": 0.0011486120894259751,
-      "reader_latency_ms": 311.7872000148054,
+      "confidence": 0.001148612910034011,
+      "reader_latency_ms": 1612.5936000025831,
       "source": {
         "doc_id": "MED-4823",
         "chunk_id": "MED-4823_1"
@@ -312,8 +312,8 @@
       "predicted_answer": "blacks and whites",
       "exact_match": 0,
       "f1": 0.08333333333333333,
-      "confidence": 0.7867804207713612,
-      "reader_latency_ms": 247.55849997745827,
+      "confidence": 0.7867816056618151,
+      "reader_latency_ms": 1523.4215999953449,
       "source": {
         "doc_id": "MED-1115",
         "chunk_id": "MED-1115_1"
@@ -325,8 +325,8 @@
       "predicted_answer": "17 and 30%",
       "exact_match": 0,
       "f1": 0.06896551724137931,
-      "confidence": 0.016764242227914002,
-      "reader_latency_ms": 301.53309999150224,
+      "confidence": 0.016764088962436453,
+      "reader_latency_ms": 1869.6302000316791,
       "source": {
         "doc_id": "MED-4040",
         "chunk_id": "MED-4040_2"
@@ -338,8 +338,8 @@
       "predicted_answer": "phytoestrogens",
       "exact_match": 0,
       "f1": 0.0,
-      "confidence": 0.9933730283406498,
-      "reader_latency_ms": 294.59559998940676,
+      "confidence": 0.9933729820395725,
+      "reader_latency_ms": 2020.9640000248328,
       "source": {
         "doc_id": "MED-3452",
         "chunk_id": "MED-3452_0"
@@ -351,8 +351,8 @@
       "predicted_answer": "To indicate why the world's most powerful nation state",
       "exact_match": 0,
       "f1": 0.0,
-      "confidence": 0.0825495162351186,
-      "reader_latency_ms": 239.24189998069778,
+      "confidence": 0.08254872625997195,
+      "reader_latency_ms": 1356.0212000156753,
       "source": {
         "doc_id": "MED-1055",
         "chunk_id": "MED-1055_0"
@@ -364,8 +364,8 @@
       "predicted_answer": "95% CIs of breast cancer associated with increasing IGF1 concentrations were estimated by conditional logistic regression in 4790 cases and 9428 matched controls",
       "exact_match": 0,
       "f1": 0.24,
-      "confidence": 0.0012474455374155019,
-      "reader_latency_ms": 269.6544000064023,
+      "confidence": 0.0012474443492433288,
+      "reader_latency_ms": 1426.135100016836,
       "source": {
         "doc_id": "MED-4223",
         "chunk_id": "MED-4223_1"
@@ -377,8 +377,8 @@
       "predicted_answer": "magnesium (P=0.04",
       "exact_match": 0,
       "f1": 0.09523809523809525,
-      "confidence": 0.0003859510162143229,
-      "reader_latency_ms": 258.100100007141,
+      "confidence": 0.0003859509242319554,
+      "reader_latency_ms": 1673.426900000777,
       "source": {
         "doc_id": "MED-1447",
         "chunk_id": "MED-1447_1"
@@ -390,8 +390,8 @@
       "predicted_answer": "Feed consumption by 5,000-ppm females",
       "exact_match": 0,
       "f1": 0.0,
-      "confidence": 0.003508004951061705,
-      "reader_latency_ms": 354.2781999858562,
+      "confidence": 0.003508014118908729,
+      "reader_latency_ms": 1696.5236999676563,
       "source": {
         "doc_id": "MED-2992",
         "chunk_id": "MED-2992_1"
